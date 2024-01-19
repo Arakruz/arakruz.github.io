@@ -12,6 +12,7 @@
     "projects": [
       {
         "title": "Project Title",
+        "subTitle": "short description",
         "startDate": "2020",
         "description": "",
         "images": [

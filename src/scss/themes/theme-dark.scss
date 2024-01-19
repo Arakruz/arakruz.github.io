@@ -46,7 +46,7 @@ body[data-theme="dark"] {
    }
 
    .project-date {
-      background-color: #918e97;
+      background-color: $primary-bg-dark;
       color: $primary-bg-light;
    }
 
@@ -62,22 +62,15 @@ body[data-theme="dark"] {
       h1 span {
          color: $primary-bg-light;
       }
-      .polaroid span {
-         background:  #6d6d6d;
-      }
-      .card {
-         background: #6d6d6d;
-         color: $primary-bg-light;
-      }
    }
 
    #portfolio {
-      background: #5b5b5b;
+      background: $primary-bg-dark;
       .section-title {
          color: $primary-bg-light !important;
       }
       .foto div {
-         background: #6d6d6d;
+         background: $primary-bg-dark;
       }
       .project-title-settings {
          color: $primary-bg-light;
@@ -86,23 +79,23 @@ body[data-theme="dark"] {
 
    #experience {
       filter: brightness(80%);
-      background: #5b5b5b;
+      background: $primary-bg-dark;
       .section-title {
          color: $primary-bg-light !important;
       }
 
       .experience-badge {
-         background: #919191 !important;
+         background: $primary-bg-dark !important;
          color: $primary-bg-light;
       }
 
       .main-badge {
-         background: #919191 !important;
+         background: $primary-bg-dark !important;
       }
    }
 
    .modal-inside .modal-content {
-      background: #5b5b5b;
+      background: $primary-bg-dark;
       color: $primary-bg-light;
    }
 

@@ -12,10 +12,11 @@
     "projects": [
       {
         "title": "Titulo do projeto",
+        "subTitle": "short description",
         "startDate": "2020",
         "description": "",
         "images": [
-          "Image path",
+          "Image path"
         ],
         "url": "",
         "technologies": [

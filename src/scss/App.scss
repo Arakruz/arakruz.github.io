@@ -39,7 +39,6 @@ html {
 .links {
 	display: flex;
 	gap: 1.5vw;
-
 }
 
 header h1 {
@@ -69,8 +68,6 @@ header h1 {
 	cursor: none !important;
 	display: none;
 }
-
-
 
 .foto img {
 	display: block;
@@ -121,28 +118,6 @@ header h1 {
 	text-align: center;
 }
 
-.polaroid img {
-	display: block;
-	max-width: 200px;
-}
-
-.polaroid span {
-	background: #ffffff;
-	display: inline-block;
-	margin: 55px 75px 30px;
-	padding: 15px 15px 30px;
-	text-align: center;
-	text-decoration: none;
-	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	-moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	-webkit-transition: all .20s linear;
-	-moz-transition: all .20s linear;
-	transition: all .20s linear;
-	z-index: 0;
-	position: relative;
-}
-
 .link-href {
 	color: black;
 }
@@ -169,8 +144,6 @@ header h1 {
 	align-items: center;
 }
 
-
-
 .main-badge {
 	font-size: 13px !important;
 	text-align: left !important;
@@ -187,9 +160,6 @@ header h1 {
 	padding: 0 !important;
 	margin: 0 !important;
 }
-
-
-
 
 .awssld__next {
 	outline: none !important;

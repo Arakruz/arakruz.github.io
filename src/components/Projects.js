@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ProjectDetailsModal from "./ProjectDetailsModal";
+import ProjectDetailsSection from "./ProjectDetailsSection";
 
 class Projects extends Component {
   constructor(props) {
@@ -16,6 +16,7 @@ class Projects extends Component {
     };
 
     let detailsModalClose = () => this.setState({ detailsModalShow: false });
+
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.projects;
       var projects = this.props.resumeProjects.map(function (projects) {
@@ -56,7 +57,7 @@ class Projects extends Component {
           <div className="col-md-12 mx-auto">
             <div className="row mx-auto">{projects}</div>
           </div>
-          <ProjectDetailsModal
+          <ProjectDetailsSection
             show={this.state.detailsModalShow}
             onHide={detailsModalClose}
             data={this.state.deps}
