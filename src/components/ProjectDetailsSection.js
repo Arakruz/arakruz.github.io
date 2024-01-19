@@ -4,20 +4,26 @@ import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "../scss/themes/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/themes/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+
 class ProjectDetailsSection extends Component {
   render() {
     if (this.props.data) {
       const technologies = this.props.data.technologies;
-      const images = this.props.data.images;
       var title = this.props.data.title;
+      var subTitle = this.props.data.subTitle;
       var description = this.props.data.description;
       var url = this.props.data.url;
+      var alt = this.props.data.imageAlt;
+      var date = this.props.data.startDate;
+      var order = this.props.order;
+      var img = this.props.data.image;
+
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
           return (
-            <li className="list-inline-item mx-3" key={i}>
+            <li className="list-inline-item mx-4" key={i}>
               <span>
-                <div className="text-center">
+                <div className="text-center small-icons">
                   <i className={icons.class} style={{ fontSize: "300%" }}>
                     <p className="text-center" style={{ fontSize: "30%" }}>
                       {icons.name}
@@ -28,78 +34,49 @@ class ProjectDetailsSection extends Component {
             </li>
           );
         });
-        if (this.props.data.images) {
-          var img = images.map((elem, i) => {
-            return <div key={i} data-src={elem} />;
-          });
-        }
       }
     }
+
+    if (this.props.order === "odd") {
+      var odd = "odd-info-container";
+      var even = "";
+    } else {
+      var odd = "even-info-container";
+      var even = "even";
+    }
+
     return (
-      <Modal
-        {...this.props}
-        size="lg"
-        aria-labelledby="contained-modal-title-vcenter"
-        centered
-        className="modal-inside"
-      >
-        <span onClick={this.props.onHide} className="modal-close">
-          <i className="fas fa-times fa-3x close-icon"></i>
-        </span>
-        <div className="col-md-12">
-          <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
-            <div className="slider-tab">
-              <span
-                className="iconify slider-iconfiy"
-                data-icon="emojione:red-circle"
-                data-inline="false"
-                style={{ marginLeft: "5px" }}
-              ></span>{" "}
-              &nbsp;{" "}
-              <span
-                className="iconify slider-iconfiy"
-                data-icon="twemoji:yellow-circle"
-                data-inline="false"
-              ></span>{" "}
-              &nbsp;{" "}
-              <span
-                className="iconify slider-iconfiy"
-                data-icon="twemoji:green-circle"
-                data-inline="false"
-              ></span>
-            </div>
-            <AwesomeSlider
-              cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
-              animation="scaleOutAnimation"
-              className="slider-image"
-            >
-              {img}
-            </AwesomeSlider>
+        <section id={title} className={order + " project-section"} >
+          <hr className="divider"></hr>
+          <div className={odd}>
+            <h1 className="project-header">{title}</h1>
+            <h2 className="project-subheader">{subTitle}</h2>
+            <h3 className="project-date">{date}</h3>
           </div>
-          <div className="col-md-10 mx-auto">
-            <h3 style={{ padding: "5px 5px 0 5px" }}>
-              {title}
-              {url ? (
-                <a
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="link-href"
-                >
-                  <i
-                    className="fas fa-external-link-alt"
-                    style={{ marginLeft: "10px" }}
-                  ></i>
-                </a>
-              ) : null}
-            </h3>
-            <p className="modal-description">{description}</p>
-            <div className="col-md-12 text-center">
-              <ul className="list-inline mx-auto">{tech}</ul>
+
+          <div className={odd + " project-information-container"}>
+          <div className="project-image-container">
+              <img src={img} alt="blur effect" className="blur"></img>
+              <img src={img} alt={alt} className="project-image"></img>
+            </div>
+
+            <div className=" project-text-container">
+              <div className={even + " details"}>
+                <h1 className="summary">Summary</h1>
+                <span className="description-text">{description}</span>
+                <div className="tech">
+                  {tech}
+                </div>
+              </div>
+
+              <a>
+                <button>
+                </button>
+              </a>
+
             </div>
           </div>
-        </div>
-      </Modal>
+        </section>
     );
   }
 }

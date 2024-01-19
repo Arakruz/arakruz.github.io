@@ -107,20 +107,7 @@ $organic-arrow-color: #8C8C8C;
       height: auto;
     }
   }
-  &__content {
-    @extend %fill-parent;
-    background-color: var(--content-background-color);
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    > img,
-    > video {
-      height: 100%;
-      top: 0;
-      left: 0;
-    }
-  }
+  z
   &__controls {
     button {
       @extend %clear-focus;

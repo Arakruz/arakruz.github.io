@@ -18,7 +18,6 @@ class App extends Component {
     };
   }
 
-
   applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
     this.swapCurrentlyActiveLanguage(oppositeLangIconId);
     document.documentElement.lang = pickedLanguage;
@@ -81,25 +80,29 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="background">
         <Nav sharedData={this.state.sharedData.basic_info}
              app={this}
         />
-        <Hero sharedData={this.state.sharedData.basic_info} />
-        <About
-          resumeBasicInfo={this.state.resumeData.basic_info}
-          sharedBasicInfo={this.state.sharedData.basic_info}
-        />
-        <Projects
-          resumeProjects={this.state.resumeData.projects}
-          resumeBasicInfo={this.state.resumeData.basic_info}
-        />
-        <Skills
-          gameSkills={this.state.sharedData.skills_game}
-          sotfwareskills={this.state.sharedData.skills_software}
-          dataSkills={this.state.sharedData.skills_data}
-          resumeBasicInfo={this.state.resumeData.basic_info}
-        />
+
+        <div className="center">
+          <Hero sharedData={this.state.sharedData.basic_info} />
+          <About
+              resumeBasicInfo={this.state.resumeData.basic_info}
+              sharedBasicInfo={this.state.sharedData.basic_info}
+          />
+          <Projects
+              resumeProjects={this.state.resumeData.projects}
+              resumeBasicInfo={this.state.resumeData.basic_info}
+          />
+          <Skills
+              gameSkills={this.state.sharedData.skills_game}
+              sotfwareskills={this.state.sharedData.skills_software}
+              dataSkills={this.state.sharedData.skills_data}
+              resumeBasicInfo={this.state.resumeData.basic_info}
+          />
+        </div>
+
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
     );

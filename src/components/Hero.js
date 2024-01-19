@@ -30,7 +30,7 @@ class Hero extends Component {
     }
 
     return (
-        <section id="home" className="home">
+        <section id="home" className="home section-content">
 
 
 

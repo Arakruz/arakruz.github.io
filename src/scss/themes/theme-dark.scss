@@ -7,6 +7,24 @@ body[data-theme="dark"] {
       background-color: $primary-bg-light;
    }
 
+   .divider {
+      color: $primary-bg-light;
+   }
+
+   .project-date {
+      background-color: transparent;
+      color: $primary-bg-light;
+   }
+
+   .project-section{
+      background-color: transparent;
+      color: $primary-bg-light
+   }
+
+   .background {
+      background-color: $primary-bg-dark;
+   }
+
 
    .title-styles {
       color: $primary-bg-light;
@@ -64,7 +82,7 @@ body[data-theme="dark"] {
       }
    }
 
-   #portfolio {
+   #projects {
       background: $primary-bg-dark;
       .section-title {
          color: $primary-bg-light !important;

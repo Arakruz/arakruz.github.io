@@ -14,9 +14,35 @@
         "title": "Project Title",
         "subTitle": "short description",
         "startDate": "2020",
-        "description": "",
-        "images": [
-          "Image file path"
+        "description": "A front end clothing store built with React, React Router, and CSS. The store allows users to browse, add, and remove items from their cart.",
+        "image": "images/portfolio/animal-shelter/p1.jpg",
+        "imageAlt": [
+          "alt"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      },
+      {
+        "title": "Project Title",
+        "subTitle": "short description",
+        "startDate": "2020",
+        "description": "Lorem ipsum dolor sit amet. Eum iusto exercitationem et voluptatem saepe sed perspiciatis pariatur. Rem aliquid eaque est quos quas et omnis consequuntur. Id unde harum quo quia dolorem ut optio tempora et distinctio Quis quo voluptas sunt est consequuntur amet non praesentium rerum. Aut quia enim est dolorum aliquam aut ratione enim et tempore numquam sit ullam voluptatem aut omnis possimus ad quam reiciendis.\n\nSed facere modi ea dolorum reiciendis 33 quia perferendis. Et sint molestiae est impedit molestiae est consequatur culpa. Vel officiis adipisci nam quos maxime et molestiae molestias et praesentium tenetur est architecto ducimus aut soluta consequatur ad fugit voluptatem. ",
+        "image": "images/portfolio/animal-shelter/p1.jpg",
+        "imageAlt": [
+          "alt"
         ],
         "url": "",
         "technologies": [
