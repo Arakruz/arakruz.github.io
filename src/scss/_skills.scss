@@ -1,0 +1,35 @@
+#skills {
+  //TODO change the color
+   background: #1F1F1F;
+   min-height: 200px;
+   width: 100%;
+   overflow: hidden;
+   padding-bottom: 10%;
+ }
+
+.skills-container{
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+}
+.icon-container {
+  margin: 0 auto;
+  align-items: start ;
+}
+.skill-list {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 11rem 11rem ;
+  font-size: 200%;
+  position: relative;
+}
+
+.skills-tile {
+  align-items: center;
+  background-color: transparentize(#F8F5F4, 0.95);
+  padding: 1.75rem 1rem 0.5rem 1rem;
+  width: 100px;
+  margin: 0.5rem 0 0.5rem 0;
+  border-radius: 10px;
+}
+

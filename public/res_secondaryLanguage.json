@@ -1,0 +1,40 @@
+{
+    "basic_info": {
+      "description_header": "",
+      "description": "",
+      "section_name": {
+        "about": "",
+        "projects": "",
+        "skills": "",
+        "experience": ""
+      }
+    },
+    "projects": [
+      {
+        "title": "Titulo do projeto",
+        "startDate": "2020",
+        "description": "",
+        "images": [
+          "Image path",
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      }
+    ],
+
+    "experience": [
+    ]
+  }

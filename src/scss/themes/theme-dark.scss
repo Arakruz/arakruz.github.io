@@ -1,0 +1,112 @@
+body[data-theme="dark"] {  
+
+   @import 'dark-slider';
+   @import "../shared-colors";
+
+   .slider-tab {
+      background-color: $primary-bg-light;
+   }
+
+
+   .title-styles {
+      color: $primary-bg-light;
+   }
+
+   .slider-image {
+      border: 5px solid $grey;
+   }
+
+
+   .nav-bar {
+      color: $primary-bg-light;
+   }
+
+   .nav-button{
+      background-color: transparent;
+   }
+
+   .nav-link {
+      background-color: transparent;
+      color: rgba(238, 240, 235, 0.60);
+      text-align: center;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+   }
+
+   #skills {
+      color: $primary-bg-light;
+      background-color: $primary-bg-dark;
+      font-weight: 300;
+   }
+
+
+   .link-href {
+      color: $primary-bg-light;
+   }
+
+   .project-date {
+      background-color: #918e97;
+      color: $primary-bg-light;
+   }
+
+   .home {
+      background-color: $primary-bg-dark;
+      h1 {
+         color: $primary-bg-light;
+      }
+   }
+
+   #about {
+      background-color: $primary-bg-dark;
+      h1 span {
+         color: $primary-bg-light;
+      }
+      .polaroid span {
+         background:  #6d6d6d;
+      }
+      .card {
+         background: #6d6d6d;
+         color: $primary-bg-light;
+      }
+   }
+
+   #portfolio {
+      background: #5b5b5b;
+      .section-title {
+         color: $primary-bg-light !important;
+      }
+      .foto div {
+         background: #6d6d6d;
+      }
+      .project-title-settings {
+         color: $primary-bg-light;
+      }
+   }
+
+   #experience {
+      filter: brightness(80%);
+      background: #5b5b5b;
+      .section-title {
+         color: $primary-bg-light !important;
+      }
+
+      .experience-badge {
+         background: #919191 !important;
+         color: $primary-bg-light;
+      }
+
+      .main-badge {
+         background: #919191 !important;
+      }
+   }
+
+   .modal-inside .modal-content {
+      background: #5b5b5b;
+      color: $primary-bg-light;
+   }
+
+   .close-icon {
+      color: $primary-bg-light;
+   }
+}

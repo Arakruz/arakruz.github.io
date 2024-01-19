@@ -1,0 +1,74 @@
+{
+    "basic_info": {
+      "name": "Pedro Novais",
+      "titles": [ "Software Developer" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/arakruz",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/pedro-de-sant-anna-novais-0923b1180/",
+          "class": "fab fa-linkedin"
+        }
+      ]
+    },
+    "skills": {
+      "icons": [
+      ]
+    },
+
+    "skills_game": {
+      "icons": [
+
+        {
+          "name": "Unreal Engine",
+          "class": "devicon-unrealengine-plain"
+        },
+        {
+          "name": "Unity Engine",
+          "class": "devicon-unity-original"
+        }
+      ]
+    },
+
+    "skills_data": {
+      "icons": [
+        {
+          "name": "MySql",
+          "class": "devicon-mysql-plain"
+        }
+      ]
+    },
+
+    "skills_software": {
+      "icons": [
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain"
+        },
+        {
+          "name": "Sass",
+          "class": "devicon-sass-original"
+        },
+        {
+          "name": "C#",
+          "class": "devicon-csharp-plain"
+        },
+        {
+          "name": "C++",
+          "class": "devicon-cplusplus-plain"
+        }
+      ]
+    }
+  }

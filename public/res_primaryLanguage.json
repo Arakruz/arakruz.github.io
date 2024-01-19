@@ -1,0 +1,51 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Project Title",
+        "startDate": "2020",
+        "description": "",
+        "images": [
+          "Image file path"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "Angular"
+          },
+          {
+            "class": "devicon-typescript-plain",
+            "name": "TypeScript"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Company Name",
+        "title": "Front-End Developer",
+        "years": "10.2019 - present",
+        "mainTech": [
+          "Angular"
+        ],
+        "technologies": [
+          "REST API",
+          "RxJS"
+        ]
+      }
+    ]
+  }

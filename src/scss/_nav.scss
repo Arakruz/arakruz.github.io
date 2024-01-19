@@ -1,0 +1,38 @@
+.language-icon {
+  font-size: 50px;
+  cursor: pointer;
+  margin-left: 1.25rem;
+}
+
+.nav-bar {
+  background-color: hsla(0, 5%, 15%, 0.75);
+  display: flex;
+  position: fixed;
+  z-index: 10;
+  opacity: 100%;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 4rem;
+  margin-right: 10rem;
+}
+
+.nav-button {
+  border: 0;
+}
+
+.option-container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 1.5vw;
+}
+
+.theme-container {
+  display: flex;
+  align-items: center;
+}
