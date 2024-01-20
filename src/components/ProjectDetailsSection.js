@@ -51,8 +51,7 @@ class ProjectDetailsSection extends Component {
     }
 
     return (
-        <section id={title} className={order + " project-section"} >
-          <hr className="divider"></hr>
+        <section id={title} className={order + " project-section"}>
           <div className={odd}>
             <h1 className="project-header">{title}</h1>
             <h2 className="project-subheader">{subTitle}</h2>
@@ -60,7 +59,7 @@ class ProjectDetailsSection extends Component {
           </div>
 
           <div className={odd + " project-information-container"}>
-          <div className="project-image-container">
+            <div className="project-image-container">
               <img src={img} alt="blur effect" className="blur"></img>
               <img src={img} alt={alt} className="project-image"></img>
             </div>
@@ -80,6 +79,7 @@ class ProjectDetailsSection extends Component {
 
             </div>
           </div>
+          <hr className="divider"></hr>
         </section>
     );
   }

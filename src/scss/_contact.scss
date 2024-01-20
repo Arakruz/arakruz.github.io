@@ -1,0 +1,32 @@
+.get-in-touch {
+  font-size: 5rem;
+}
+
+#contact {
+  margin: 5vh 0;
+}
+
+.email {
+  font-size: 4rem;
+  color: rgb(189, 189, 189);
+  @media only screen and (max-width: 1050px) {
+    font-size: 2rem;
+  }
+}
+
+.contact-info {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  max-height: 1080px;
+  width: 100%;
+  overflow: hidden;
+  padding: 100px 40px;
+  @media only screen and (max-width: 1050px) {
+    height: fit-content;
+  }
+}

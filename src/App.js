@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import $ from "jquery";
-import "./scss/main.scss";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import About from "./components/About";

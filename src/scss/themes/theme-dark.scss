@@ -3,11 +3,21 @@ body[data-theme="dark"] {
    @import 'dark-slider';
    @import "../shared-colors";
 
+   html {
+      color: $primary-bg-light;
+   }
+
    .slider-tab {
       background-color: $primary-bg-light;
    }
 
-   .divider {
+   .divider h1 h2 h3 {
+      color: $primary-bg-light;
+   }
+
+
+
+   .get-in-touch {
       color: $primary-bg-light;
    }
 
@@ -97,9 +107,7 @@ body[data-theme="dark"] {
 
    #projects {
       background: $primary-bg-dark;
-      .section-title {
-         color: $primary-bg-light !important;
-      }
+
       .foto div {
          background: $primary-bg-dark;
       }
@@ -108,12 +116,13 @@ body[data-theme="dark"] {
       }
    }
 
+   .section-title {
+      color: $primary-bg-light !important;
+   }
+
    #experience {
       filter: brightness(80%);
       background: $primary-bg-dark;
-      .section-title {
-         color: $primary-bg-light !important;
-      }
 
       .experience-badge {
          background: $primary-bg-dark !important;

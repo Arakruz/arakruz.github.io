@@ -44,7 +44,6 @@
   flex-direction: column;
   height: fit-content;
   box-sizing: border-box;
-  padding: 0 15rem;
 
   @media only screen and (max-width: 1050px) {
     padding: 0;
@@ -59,16 +58,11 @@
   font-size: 2.1rem;
 }
 
-
-
-
 .project-text-container {
   display: flex;
-  max-width: 33vw;
+  max-width: 30vw;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
-
 }
 
 .details {

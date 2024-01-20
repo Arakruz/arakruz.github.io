@@ -7,8 +7,14 @@ class Contact extends Component {
 
         return (
             <div>
-                <section>
+                <section id="contact">
                     <h1 className="section-title">{sectionName}</h1>
+                    <div className="col-md-12 contact-info">
+                        <h2 className="get-in-touch">Want to get in touch?</h2>
+                        <a href="mailto:contact@pedronovais.com" className="email">
+                            <h2>contact@pedronovais.com</h2>
+                        </a>
+                    </div>
                 </section>
             </div>
         );

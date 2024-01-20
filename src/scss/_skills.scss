@@ -1,16 +1,10 @@
 #skills {
-  //TODO change the color
-   background: #1F1F1F;
-   min-height: 200px;
-   width: 100%;
-   overflow: hidden;
-   padding-bottom: 10%;
  }
 
 .skills-container{
   display: flex;
   flex-direction: row;
-  //align-content: space-around;
+  justify-content: center;
 }
 .icon-container {
   margin: 0 10rem;
@@ -22,6 +16,7 @@
   grid-template-columns: 11rem 11rem ;
   font-size: 200%;
   position: relative;
+  margin-top: 2rem;
 }
 
 .skills-tile {

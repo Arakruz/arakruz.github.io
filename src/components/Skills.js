@@ -9,29 +9,28 @@ class Skills extends Component {
       let dataSkills = this.props.dataSkills.icons.map(this.createSkillTile);
 
     return (
-      <section id="skills section-content">
-        <div className="col-md-12">
+        <section id="skills" className="section-content">
           <div className="col-md-12">
-            <h1 className="section-title"> {sectionName}</h1>
+            <div className="col-md-12">
+              <h1 className="section-title"> {sectionName}</h1>
+            </div>
+            <div className="col-md-12 text-center skills-container">
+              <div className="icon-container">
+                <h2>Software Development</h2>
+                <ul className="list-inline mx-auto skill-list software-skills">{softwareSkills}</ul>
+              </div>
+              <div className="icon-container">
+                <h2>Game Development</h2>
+                <ul className="list-inline mx-auto skill-list">{gameSkills}</ul>
+              </div>
+              <div className="icon-container">
+                <h2>Data Science</h2>
+                <ul className="list-inline mx-auto skill-list">{dataSkills}</ul>
+              </div>
+            </div>
           </div>
-          <div className="col-md-12 text-center skills-container">
-            <div className="icon-container">
-              <h2>Software Development</h2>
-              <ul className="list-inline mx-auto skill-list software-skills">{softwareSkills}</ul>
-            </div>
-            <div className="icon-container">
-              <h2>Game Development</h2>
-              <ul className="list-inline mx-auto skill-list">{gameSkills}</ul>
-            </div>
-            <div className="icon-container">
-            <h2>Data Science</h2>
-              <ul className="list-inline mx-auto skill-list">{dataSkills}</ul>
-            </div>
-
-
-          </div>
-        </div>
-      </section>
+          <hr className="divider"></hr>
+        </section>
     );
     }
   }

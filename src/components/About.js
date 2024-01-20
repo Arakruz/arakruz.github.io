@@ -15,10 +15,9 @@ class About extends Component {
         return (
             <section id="about" className="section-content">
                 <div className="col-md-12">
-                    <h1 style={{color: "black"}}>
-                        <span>{sectionName}</span>
+                    <h1 className="section-title">
+                        {sectionName}
                     </h1>
-
                 </div>
             </section>
         );

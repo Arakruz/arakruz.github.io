@@ -28,7 +28,8 @@ class Projects extends Component {
 
     return (
         <section id="projects" className="section-content">
-          <div style={{width:"100%"}}>
+          <div>
+            <hr className="divider"></hr>
             <h1 className="section-title" style={{color: "black"}}>
               <span>{sectionName}</span>
             </h1>
@@ -36,7 +37,6 @@ class Projects extends Component {
               {projects}
             </div>
           </div>
-          <hr className="divider"></hr>
         </section>
     );
   }

@@ -39,6 +39,10 @@
         {
           "name": "MySql",
           "class": "devicon-mysql-plain"
+        },
+        {
+          "name": "R",
+          "class": "devicon-r-plain"
         }
       ]
     },
