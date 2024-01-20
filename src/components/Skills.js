@@ -9,12 +9,10 @@ class Skills extends Component {
       let dataSkills = this.props.dataSkills.icons.map(this.createSkillTile);
 
     return (
-      <section id="skills">
+      <section id="skills section-content">
         <div className="col-md-12">
           <div className="col-md-12">
-            <h1 className="section-title">
-              <span className="text-white">{sectionName}</span>
-            </h1>
+            <h1 className="section-title"> {sectionName}</h1>
           </div>
           <div className="col-md-12 text-center skills-container">
             <div className="icon-container">

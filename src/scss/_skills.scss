@@ -10,11 +10,11 @@
 .skills-container{
   display: flex;
   flex-direction: row;
-  align-content: space-around;
+  //align-content: space-around;
 }
 .icon-container {
-  margin: 0 auto;
-  align-items: start ;
+  margin: 0 10rem;
+  align-items: center;
 }
 .skill-list {
   display: grid;

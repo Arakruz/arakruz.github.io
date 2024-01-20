@@ -17,6 +17,7 @@ class ProjectDetailsSection extends Component {
       var date = this.props.data.startDate;
       var order = this.props.order;
       var img = this.props.data.image;
+      var onOff = "";
 
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
@@ -45,6 +46,10 @@ class ProjectDetailsSection extends Component {
       var even = "even";
     }
 
+    if (url === "") {
+      onOff = "hidden"
+    }
+
     return (
         <section id={title} className={order + " project-section"} >
           <hr className="divider"></hr>
@@ -70,8 +75,7 @@ class ProjectDetailsSection extends Component {
               </div>
 
               <a>
-                <button>
-                </button>
+                <button className={onOff + " project-link-button"}>Project Files <i className="arrow"></i></button>
               </a>
 
             </div>

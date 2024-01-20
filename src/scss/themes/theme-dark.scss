@@ -18,15 +18,28 @@ body[data-theme="dark"] {
 
    .project-section{
       background-color: transparent;
-      color: $primary-bg-light
+      color: $primary-bg-light;
    }
 
    .background {
       background-color: $primary-bg-dark;
    }
 
+   .arrow {
+      border: solid $primary-bg-light;
+      border-width: 0 3px 3px 0;
+   }
+
+   .project-link-button {
+      color: $primary-bg-light;
+   }
+
 
    .title-styles {
+      color: $primary-bg-light;
+   }
+
+   .icon-container{
       color: $primary-bg-light;
    }
 

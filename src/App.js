@@ -7,6 +7,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Nav from "./components/Nav"
+import Contact from "./components/Contact";
 
 class App extends Component {
   constructor(props) {
@@ -101,6 +102,10 @@ class App extends Component {
               dataSkills={this.state.sharedData.skills_data}
               resumeBasicInfo={this.state.resumeData.basic_info}
           />
+          <Contact resumeProjects={this.state.resumeData.basic_info}
+                   resumeBasicInfo={this.state.resumeData.basic_info}>
+
+          </Contact>
         </div>
 
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
