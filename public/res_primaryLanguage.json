@@ -4,7 +4,7 @@
       "header_profession": "Software Developer",
       "header_hobby": "video game enthusiast",
       "header_button": "Get to know me",
-      "description": "Lorem ipsum dolor sit amet. Eum iusto exercitationem et voluptatem saepe sed perspiciatis pariatur. Rem aliquid eaque est quos quas et omnis consequuntur. Id unde harum quo quia dolorem ut optio tempora et distinctio Quis quo voluptas sunt est consequuntur amet non praesentium rerum. Aut quia enim est dolorum aliquam aut ratione enim et tempore numquam sit ullam voluptatem aut omnis possimus ad quam reiciendis.\n\nSed facere modi ea dolorum reiciendis 33 quia perferendis. Et sint molestiae est impedit molestiae est consequatur culpa. Vel officiis adipisci nam quos maxime et molestiae molestias et praesentium tenetur est architecto ducimus aut soluta consequatur ad fugit voluptatem. ",
+      "description": "I'm currently an undergraduate student at UBC, exploring concepts in computer science, data science, and psychology. As a Cognitive Systems student, I was able to take classes in many different disciplines, learning different perspectives and how to reconcile them to form a bigger, more complete picture of a multitude of areas, from AI development and analysis to the interactions between humans and computers. Beyond university, I am a passionate and curious individual, always looking for new opportunities to learn more about the world around us, and a video game enthusiast who loves getting lost in digital worlds, constantly trying to understand better how they can be so great at what they do.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -15,35 +15,40 @@
     },
     "projects": [
       {
-        "title": "Project Title",
-        "subTitle": "short description",
+        "title": "Spellrise",
+        "subTitle": "UBC Game dev Club",
         "startDate": "2020",
-        "description": "A front end clothing store built with React, React Router, and CSS. The store allows users to browse, add, and remove items from their cart.",
+        "description": "A mobile adventure game focused on allowing the player to cast spells by drawing on the screen while they explore a fantasy world. I worked as a systems programmer to implement day-night cycles, in-editor dev tools to facilitate development, player-environment and player-enemy interactions, and a modular spell system for fast prototyping and increased gameplay variety.",
         "image": "images/portfolio/animal-shelter/p1.jpg",
         "imageAlt": [
-          "alt"
+          "Gif showcasing the game, including the spell drawing feature"
         ],
-        "url": " ",
+        "url": "",
         "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
+
           {
             "class": "devicon-csharp-plain",
             "name": "C#"
+          },
+          {
+            "class": "devicon-unity-original",
+            "name": "Unity"
+          },
+          {
+            "class": "devicon-github-plain",
+            "name": "Github"
+          },
+          {
+            "class": "devicon-trello-plain",
+            "name": "Trello"
           }
         ]
       },
       {
-        "title": "Project Title",
-        "subTitle": "short description",
-        "startDate": "2020",
-        "description": "Lorem ipsum dolor sit amet. Eum iusto exercitationem et voluptatem saepe sed perspiciatis pariatur. Rem aliquid eaque est quos quas et omnis consequuntur. Id unde harum quo quia dolorem ut optio tempora et distinctio Quis quo voluptas sunt est consequuntur amet non praesentium rerum. Aut quia enim est dolorum aliquam aut ratione enim et tempore numquam sit ullam voluptatem aut omnis possimus ad quam reiciendis.\n\nSed facere modi ea dolorum reiciendis 33 quia perferendis. Et sint molestiae est impedit molestiae est consequatur culpa. Vel officiis adipisci nam quos maxime et molestiae molestias et praesentium tenetur est architecto ducimus aut soluta consequatur ad fugit voluptatem. ",
+        "title": "Tower Defense Project",
+        "subTitle": "UBC Game Dev Club - In development",
+        "startDate": "2023",
+        "description": "Plants vs zombies inspired Tower Defense game built with Unreal Engine, C++, Blueprints and Perforce. I am currently working as a programmer and team lead for a team of ten developers. The main features I have worked on so far were game logic, enemy wave creation, grid system, towers, UI, and in-editor tools to facilitate prototyping and testing. Besides programming tasks, I also worked on game design and team management.",
         "image": "images/portfolio/animal-shelter/p1.jpg",
         "imageAlt": [
           "alt"
@@ -51,16 +56,185 @@
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-cplusplus-plain",
+            "name": "C++"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-unrealengine-original",
+            "name": "Unreal"
           },
+          {
+            "class": "devicon-git-plain",
+            "name": "Perforce"
+          }
+        ]
+      },
+      {
+        "title": "Real Time Strategy Game",
+        "subTitle": "In development",
+        "startDate": "2023",
+        "description": "I am working as a programmer for the UBC Game Dev Club on a 2D Isometric RTS game built with Unity and C#. So far, I have worked on grid, navigation, and building systems.",
+        "image": "images/portfolio/animal-shelter/p1.jpg",
+        "imageAlt": [
+          "alt"
+        ],
+        "url": "",
+        "technologies": [
+
           {
             "class": "devicon-csharp-plain",
             "name": "C#"
+          },
+          {
+            "class": "devicon-unity-original",
+            "name": "Unity"
+          },
+          {
+            "class": "devicon-github-plain",
+            "name": "Github"
+          },
+          {
+            "class": "devicon-julia-plain",
+            "name": "Asana"
+          }
+
+        ]
+      },
+      {
+        "title": "Pomodoro Timer",
+        "subTitle": "Software Construction class project",
+        "startDate": "2021",
+        "description": "This was my first complete software project and a final assignment for a Software Construction class. I learned and applied object-oriented programming skills and design patterns to create an app in Java to keep track of, record, and plan focus sessions used in the Pomodoro study technique, facilitating its use. I also employed test-driven development to guarantee code reliability and robustness using JUnit while following best practices and writing extensive documentation to simplify code inspection.",
+        "image": "images/portfolio/animal-shelter/p1.jpg",
+        "imageAlt": [
+          "alt"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-intellij-plain",
+            "name": "intellij"
+          },
+          {
+            "class": "devicon-github-plain",
+            "name": "Github"
+          }
+        ]
+      },
+      {
+        "title": "Housing Management System",
+        "subTitle": "Databases class project",
+        "startDate": "2023",
+        "description": "Project mimicking a simplified residence management system for a database class final assignment. We aimed to build software that can simulate a real-life use case by tracking tenants, mail, staff, rooms, buildings, equipment available to be rented, etc. I mainly worked on the Java GUI and database design, including ER diagram, normalization, and schema creation.",
+        "image": "images/portfolio/animal-shelter/p1.jpg",
+        "imageAlt": [
+          "alt"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-oracle-plain",
+            "name": "Oracle"
+          },
+
+          {
+            "class": "devicon-github-plain",
+            "name": "Github"
+          }
+        ]
+      },
+      {
+        "title": "ML Agent Training",
+        "subTitle": "Cognitive Systems Design class project",
+        "startDate": "2023",
+        "description": "The final project for a Cognitive Systems Design and Analysis class where groups of three to four students were tasked to develop and train a machine learning agent using Unity and C# to compete in a given game. \nDue to my prior experience with Unity, I was the project's main developer, agent and reward designer, implementing all observation capabilities for the agent and setting the training specifications. We ranked third in the class competition involving all students from all sections.",
+        "image": "images/portfolio/animal-shelter/p1.jpg",
+        "imageAlt": [
+          "alt"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          },
+          {
+            "class": "devicon-unity-original",
+            "name": "Unity"
+          },
+          {
+            "class": "devicon-github-plain",
+            "name": "Github"
+          }
+        ]
+      },
+      {
+        "title": "Crime Rate Analysis in Vancouver",
+        "subTitle": "Statistics class project",
+        "startDate": "2022",
+        "description": "Analysis of Vancouver crime data to see if there was any noticeable impact of the COVID-19 pandemic on the crime rate in each neighbourhood of the city. For this project, we used R and Jupyter Notebooks to optimize datasets, wrangle data, make data analysis workflows, conduct statistical analysis and create visualizations.",
+        "image": "images/portfolio/animal-shelter/p1.jpg",
+        "imageAlt": [
+          "alt"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-r-plain",
+            "name": "R"
+          },
+          {
+            "class": "devicon-jupyter-plain",
+            "name": "Jupyter"
+          },
+          {
+            "class": "devicon-github-plain",
+            "name": "Github"
+          }
+        ]
+      },
+      {
+        "title": "Personal Portfolio",
+        "subTitle": "You are on it!",
+        "startDate": "2023",
+        "description": "Created to be a central place to display my past projects and hone my skills for future human-computer interaction classes and possible work opportunities. ",
+        "image": "images/portfolio/animal-shelter/p1.jpg",
+        "imageAlt": [
+          "alt"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "Html"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "css"
+          },
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-sass-plain",
+            "name": "sass"
+          },
+          {
+            "class": "devicon-figma-plain",
+            "name": "Figma"
           }
         ]
       }
