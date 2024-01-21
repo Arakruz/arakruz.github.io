@@ -102,6 +102,10 @@
 
 .odd-info-container {
   flex-direction: row-reverse;
+
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
 }
 
 .even-info-container {

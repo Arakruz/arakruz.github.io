@@ -1,15 +1,18 @@
 
 #skills {
   padding-top: 5vh;
+  overflow: hidden;
  }
 
 .skills-container{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  text-align: left;
+  padding-bottom: 5vh;
 }
 .icon-container {
-  margin: 0 10rem;
+  margin: 0 5rem;
   align-items: center;
 }
 .skill-list {
@@ -29,4 +32,5 @@
   margin: 0.5rem 0 0.5rem 0;
   border-radius: 10px;
 }
+
 

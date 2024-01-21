@@ -99,7 +99,7 @@ class App extends Component {
           />
           <Skills
               gameSkills={this.state.sharedData.skills_game}
-              sotfwareskills={this.state.sharedData.skills_software}
+              webskills={this.state.sharedData.skills_software}
               dataSkills={this.state.sharedData.skills_data}
               resumeBasicInfo={this.state.resumeData.basic_info}
           />

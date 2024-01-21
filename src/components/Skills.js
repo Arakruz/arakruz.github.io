@@ -2,10 +2,10 @@ import React, { Component } from "react";
 
 class Skills extends Component {
   render() {
-    if (this.props.gameSkills && this.props.resumeBasicInfo && this.props.sotfwareskills && this.props.dataSkills) {
+    if (this.props.gameSkills && this.props.resumeBasicInfo && this.props.webskills && this.props.dataSkills) {
       let sectionName = this.props.resumeBasicInfo.section_name.skills;
       let gameSkills = this.props.gameSkills.icons.map(this.createSkillTile);
-      let softwareSkills = this.props.sotfwareskills.icons.map(this.createSkillTile);
+      let webSkills = this.props.webskills.icons.map(this.createSkillTile);
       let dataSkills = this.props.dataSkills.icons.map(this.createSkillTile);
 
     return (
@@ -16,15 +16,15 @@ class Skills extends Component {
             </div>
             <div className="col-md-12 text-center skills-container">
               <div className="icon-container">
-                <h2>Software Development</h2>
-                <ul className="list-inline mx-auto skill-list software-skills">{softwareSkills}</ul>
+                <h2>Web</h2>
+                <ul className="list-inline mx-auto skill-list software-skills">{webSkills}</ul>
               </div>
               <div className="icon-container">
-                <h2>Game Development</h2>
+                <h2>Games</h2>
                 <ul className="list-inline mx-auto skill-list">{gameSkills}</ul>
               </div>
               <div className="icon-container">
-                <h2>Data Science</h2>
+                <h2 style={{marginLeft: '1em'}}>Data & Software</h2>
                 <ul className="list-inline mx-auto skill-list">{dataSkills}</ul>
               </div>
             </div>
