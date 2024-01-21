@@ -114,8 +114,10 @@ class Nav extends Component {
                         </div>
                     </div>
                     <div className="links">
+                        <button className="nav-button"><a className="nav-link" href="#hero">Home</a></button>
                         <button className="nav-button"><a className="nav-link" href="#about">About</a></button>
                         <button className="nav-button"><a className="nav-link" href="#projects">Projects</a></button>
+                        <button className="nav-button"><a className="nav-link" href="#skills">Skills</a></button>
                         <button className="nav-button"><a className="nav-link" href="#contact">Contact</a></button>
                     </div>
                 </nav>

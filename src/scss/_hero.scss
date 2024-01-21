@@ -1,13 +1,93 @@
-.home {
-  position: relative;
-  height: 100vh;
+.hero {
   width: 100%;
   background-size: cover;
-  -webkit-background-size: cover;
-  text-align: center;
-  overflow: hidden;
-  background-color: #e9d5a1;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  padding-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero-details {
+  display: flex;
+  width: 50vw;
+  height: 20vh;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  .hero-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+
+    .name {
+      color: red;
+    }
+  }
+}
+
+.hero-one {
+  font-size: 4.5rem;
+  animation: fadein 1s, fadedown 1s forwards;
+  margin-bottom: 2rem;
+}
+
+.hero-two {
+  font-size: 2.5rem;
+  opacity: 0;
+  animation: fadein 1s forwards, fadedown 1s forwards;
+  animation-delay: 1s;
+}
+
+.hero-three {
+  font-size: 2rem;
+  opacity: 0;
+  animation: fadein 1s forwards, fadedown 1s forwards;
+  animation-delay: 2s;
+}
+
+
+.view-button {
+  margin-top: 30px;
+  border: 2px solid red;
+  border-radius: 8px;
+  padding: 8px;
+  width: 180px;
+  font-size: 1.5rem;
+  opacity: 0;
+  background: linear-gradient(to left, transparent 50%, red 50%) right;
+  background-size: 200%;
+  animation: fadein 2s forwards;
+  animation-delay: 3.5s;
+  transition: background-position .2s ease-out;
+
+  a {
+    text-decoration: none;
+    color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: transform .2s;
+  }
+
+  &:hover {
+    background-position: left;
+
+    a {
+      transform: translateX(13px);
+    }
+  }
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes fadedown {
+  from { top: -100px; }
+  to { top: 0px; }
 }

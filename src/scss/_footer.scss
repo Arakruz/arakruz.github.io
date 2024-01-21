@@ -1,12 +1,13 @@
 footer {
   background: #1F1F1F;
-  min-height: 100px;
   width: 100%;
   overflow: hidden;
   font-size: 14px;
   color: white;
   position: relative;
   text-align: center;
+  justify-content: center;
+  padding: 2rem 0;
 }
 
 footer a,
@@ -20,6 +21,6 @@ footer a:focus {
 }
 
 .social-links {
-  margin-top: 50px;
+  margin-bottom: 1rem;
   font-size: 22px;
 }

@@ -86,7 +86,9 @@ class App extends Component {
         />
 
         <div className="center">
-          <Hero sharedData={this.state.sharedData.basic_info} />
+          <Hero sharedData={this.state.sharedData.basic_info}
+                sharedBasicInfo={this.state.resumeData.basic_info}
+          />
           <About
               resumeBasicInfo={this.state.resumeData.basic_info}
               sharedBasicInfo={this.state.sharedData.basic_info}
