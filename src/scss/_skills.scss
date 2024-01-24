@@ -1,7 +1,6 @@
 
 #skills {
   padding-top: 5vh;
-  overflow: hidden;
  }
 
 .skills-container{
@@ -9,8 +8,10 @@
   flex-direction: row;
   justify-content: center;
   text-align: left;
-  padding-bottom: 5vh;
+  padding-bottom: 10vh;
+  padding-top: 5vh;
 }
+
 .icon-container {
   margin: 0 5rem;
   align-items: center;

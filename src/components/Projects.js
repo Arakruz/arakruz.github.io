@@ -28,10 +28,10 @@ class Projects extends Component {
 
     return (
         <section id="projects" className="section-content">
+          <hr className="divider"></hr>
           <div>
-            <hr className="divider"></hr>
-            <h1 className="section-title" style={{color: "black"}}>
-              <span>{sectionName}</span>
+            <h1 className="section-title">
+              {sectionName}
             </h1>
             <div className="projects-container">
               {projects}

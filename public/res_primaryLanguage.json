@@ -23,7 +23,7 @@
         "imageAlt": [
           "Gif showcasing the game, including the spell drawing feature"
         ],
-        "url": "",
+        "url": "pedronovais.com",
         "technologies": [
 
           {
@@ -41,6 +41,31 @@
           {
             "class": "devicon-trello-plain",
             "name": "Trello"
+          }
+        ]
+      },
+      {
+        "title": "Pomodoro Timer",
+        "subTitle": "Software Construction class project",
+        "startDate": "2021",
+        "description": "This was my first complete software project and a final assignment for a Software Construction class. I learned and applied object-oriented programming skills and design patterns to create an app in Java to keep track of, record, and plan focus sessions used in the Pomodoro study technique, facilitating its use. I also employed test-driven development to guarantee code reliability and robustness using JUnit while following best practices and writing extensive documentation to simplify code inspection.",
+        "image": "images/portfolio/animal-shelter/p1.jpg",
+        "imageAlt": [
+          "alt"
+        ],
+        "url": "https://github.com/Arakruz/Pomodoro-Timer",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-intellij-plain",
+            "name": "intellij"
+          },
+          {
+            "class": "devicon-github-plain",
+            "name": "Github"
           }
         ]
       },
@@ -101,23 +126,23 @@
         ]
       },
       {
-        "title": "Pomodoro Timer",
-        "subTitle": "Software Construction class project",
-        "startDate": "2021",
-        "description": "This was my first complete software project and a final assignment for a Software Construction class. I learned and applied object-oriented programming skills and design patterns to create an app in Java to keep track of, record, and plan focus sessions used in the Pomodoro study technique, facilitating its use. I also employed test-driven development to guarantee code reliability and robustness using JUnit while following best practices and writing extensive documentation to simplify code inspection.",
+        "title": "Crime Rate Analysis in Vancouver",
+        "subTitle": "Statistics class project",
+        "startDate": "2022",
+        "description": "Analysis of Vancouver crime data to see if there was any noticeable impact of the COVID-19 pandemic on the crime rate in each neighbourhood of the city. For this project, we used R and Jupyter Notebooks to optimize datasets, wrangle data, make data analysis workflows, conduct statistical analysis and create visualizations.",
         "image": "images/portfolio/animal-shelter/p1.jpg",
         "imageAlt": [
           "alt"
         ],
-        "url": "",
+        "url": "https://github.com/Arakruz/STAT201_Project_Group_30",
         "technologies": [
           {
-            "class": "devicon-java-plain",
-            "name": "Java"
+            "class": "devicon-r-plain",
+            "name": "R"
           },
           {
-            "class": "devicon-intellij-plain",
-            "name": "intellij"
+            "class": "devicon-jupyter-plain",
+            "name": "Jupyter"
           },
           {
             "class": "devicon-github-plain",
@@ -134,7 +159,7 @@
         "imageAlt": [
           "alt"
         ],
-        "url": "",
+        "url": "https://github.com/Arakruz/Managment-System",
         "technologies": [
           {
             "class": "devicon-java-plain",
@@ -160,7 +185,7 @@
         "imageAlt": [
           "alt"
         ],
-        "url": "",
+        "url": "https://github.com/Arakruz/Cogs_300_Project",
         "technologies": [
           {
             "class": "devicon-csharp-plain",
@@ -177,31 +202,6 @@
         ]
       },
       {
-        "title": "Crime Rate Analysis in Vancouver",
-        "subTitle": "Statistics class project",
-        "startDate": "2022",
-        "description": "Analysis of Vancouver crime data to see if there was any noticeable impact of the COVID-19 pandemic on the crime rate in each neighbourhood of the city. For this project, we used R and Jupyter Notebooks to optimize datasets, wrangle data, make data analysis workflows, conduct statistical analysis and create visualizations.",
-        "image": "images/portfolio/animal-shelter/p1.jpg",
-        "imageAlt": [
-          "alt"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-r-plain",
-            "name": "R"
-          },
-          {
-            "class": "devicon-jupyter-plain",
-            "name": "Jupyter"
-          },
-          {
-            "class": "devicon-github-plain",
-            "name": "Github"
-          }
-        ]
-      },
-      {
         "title": "Personal Portfolio",
         "subTitle": "You are on it!",
         "startDate": "2023",
@@ -210,7 +210,7 @@
         "imageAlt": [
           "alt"
         ],
-        "url": "",
+        "url": "https://github.com/Arakruz/arakruz.github.io",
         "technologies": [
           {
             "class": "devicon-javascript-plain",

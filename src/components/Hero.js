@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import Switch from "react-switch";
+import {FiArrowDown, FiArrowUpRight} from "react-icons/fi";
+import {FaArrowDown} from "react-icons/fa";
 
 class Hero extends Component {
   render() {
@@ -19,12 +20,13 @@ class Hero extends Component {
           <div className="hero-details">
             <div className="hero-text">
               <p className="hero-one">{hello} <span className="name">{name}</span></p>
-              <p className="hero-two">{software}</p>
-              <p className="hero-three">{videoGame}</p>
+              <p className="hero-two">{software},</p>
+              <p className="hero-three">{videoGame}.</p>
             </div>
             <button type="button" className="view-button">
               <a href="#about">
                 <span>{heroButton}</span>
+                <FaArrowDown className="arrow" />
               </a>
             </button>
           </div>

@@ -32,95 +32,96 @@ class Nav extends Component {
         }
 
         return (
-                <nav className="nav-bar">
-                    <div className="option-container">
-                        <div className="language-container">
-                            <div
-                                onClick={() =>
-                                    app.applyPickedLanguage(
-                                        window.$primaryLanguage,
-                                        window.$secondaryLanguageIconId
-                                    )
-                                }
-                                style={{display: "inline"}}
-                            >
+            <nav className="nav-bar">
+                <div className="option-container">
+                    <div className="language-container">
+                        <div
+                            onClick={() =>
+                                app.applyPickedLanguage(
+                                    window.$primaryLanguage,
+                                    window.$secondaryLanguageIconId
+                                )
+                            }
+                            style={{display: "inline"}}
+                        >
                                 <span
                                     className="iconify language-icon mr-5"
                                     data-icon="twemoji-flag-for-flag-united-kingdom"
                                     data-inline="false"
                                     id={window.$primaryLanguageIconId}
                                 ></span>
-                            </div>
-                            <div
-                                onClick={() =>
-                                    app.applyPickedLanguage(
-                                        window.$secondaryLanguage,
-                                        window.$primaryLanguageIconId
-                                    )
-                                }
-                                style={{display: "inline"}}
-                            >
+                        </div>
+                        <div
+                            onClick={() =>
+                                app.applyPickedLanguage(
+                                    window.$secondaryLanguage,
+                                    window.$primaryLanguageIconId
+                                )
+                            }
+                            style={{display: "inline"}}
+                        >
                                 <span
                                     className="iconify language-icon"
                                     data-icon="twemoji-flag-for-flag-brazil"
                                     data-inline="false"
                                     id={window.$secondaryLanguageIconId}
                                 ></span>
-                            </div>
-                        </div>
-                        <div className="theme-container">
-                            <Switch
-                                checked={this.state.checked}
-                                onChange={this.onThemeSwitchChange}
-                                offColor="#353535"
-                                onColor="#C18644"
-                                className="react-switch mx-auto"
-                                width={90}
-                                height={40}
-                                offHandleColor="#EEF0EB"
-                                onHandleColor="#282424"
-                                uncheckedIcon={
-                                    <span
-                                        className="iconify"
-                                        data-icon="twemoji:crescent-moon"
-                                        data-inline="false"
-                                        style={{
-                                            display: "block",
-                                            height: "100%",
-                                            fontSize: 25,
-                                            textAlign: "end",
-                                            marginLeft: "20px",
-                                            color: "#353239",
-                                        }}
-                                    ></span>
-                                }
-                                checkedIcon={
-                                    <span
-                                        className="iconify"
-                                        data-icon="noto-v1:sun"
-                                        data-inline="false"
-                                        style={{
-                                            display: "block",
-                                            height: "100%",
-                                            fontSize: 25,
-                                            textAlign: "end",
-                                            marginLeft: "10px",
-                                            color: "#353239",
-                                        }}
-                                    ></span>
-                                }
-                                id="icon-switch"
-                            />
                         </div>
                     </div>
-                    <div className="links">
-                        <button className="nav-button"><a className="nav-link" href="#hero">Home</a></button>
-                        <button className="nav-button"><a className="nav-link" href="#about">About</a></button>
-                        <button className="nav-button"><a className="nav-link" href="#projects">Projects</a></button>
-                        <button className="nav-button"><a className="nav-link" href="#skills">Skills</a></button>
-                        <button className="nav-button"><a className="nav-link" href="#contact">Contact</a></button>
+                    <div className="theme-container">
+                        <Switch
+                            checked={this.state.checked}
+                            onChange={this.onThemeSwitchChange}
+                            offColor="#353535"
+                            onColor="#C18644"
+                            className="react-switch mx-auto"
+                            width={90}
+                            height={40}
+                            offHandleColor="#EEF0EB"
+                            onHandleColor="#282424"
+                            uncheckedIcon={
+                                <span
+                                    className="iconify"
+                                    data-icon="twemoji:crescent-moon"
+                                    data-inline="false"
+                                    style={{
+                                        display: "block",
+                                        height: "100%",
+                                        fontSize: 25,
+                                        textAlign: "end",
+                                        marginLeft: "20px",
+                                        color: "#353239",
+                                    }}
+                                ></span>
+                            }
+                            checkedIcon={
+                                <span
+                                    className="iconify"
+                                    data-icon="noto-v1:sun"
+                                    data-inline="false"
+                                    style={{
+                                        display: "block",
+                                        height: "100%",
+                                        fontSize: 25,
+                                        textAlign: "end",
+                                        marginLeft: "10px",
+                                        color: "#353239",
+                                    }}
+                                ></span>
+                            }
+                            id="icon-switch"
+                        />
                     </div>
-                </nav>
+                </div>
+                <div className="links">
+                    <a className="nav-link nav-button" href="#hero">Home</a>
+
+                    <a className="nav-link" href="#about">About</a>
+                    <a className="nav-link" href="#projects">Projects</a>
+                    <a className="nav-link" href="#skills">Skills</a>
+                    <a className="nav-link" href="#contact">Contact</a>
+                </div>
+            </nav>
         );
     }
 }

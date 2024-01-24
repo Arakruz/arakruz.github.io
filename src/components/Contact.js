@@ -1,25 +1,38 @@
-import {Component} from "react";
+import React, {Component} from "react";
 
 class Contact extends Component {
+
     render() {
+
+        if (this.props.sharedBasicInfo) {
+            var networks = this.props.sharedBasicInfo.social.map(function (network) {
+                return (
+                    <span key={network.name} className="m-4">
+            <a href={network.url} target="_blank" rel="noopener noreferrer">
+              <i className={network.class + " hover-expand"}></i>
+            </a>
+          </span>
+                );
+            });
+        }
+
         if (this.props.resumeBasicInfo) {
             let sectionName = this.props.resumeBasicInfo.section_name.contact;
 
         return (
-            <div>
                 <section id="contact">
                     <h1 className="section-title">{sectionName}</h1>
                     <div className="col-md-12 contact-info">
                         <h2 className="get-in-touch">Want to get in touch?</h2>
                         <a href="mailto:contact@pedronovais.com" className="email">
-                            <h2>contact@pedronovais.com</h2>
+                            <p className="link-text">contact@pedronovais.com</p>
                         </a>
+                        <div className="social-links">{networks}</div>
                     </div>
                 </section>
-            </div>
         );
+        }
     }
-}
 }
 
 export default Contact;

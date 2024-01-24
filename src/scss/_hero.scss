@@ -32,52 +32,52 @@
 .hero-one {
   font-size: 4.5rem;
   animation: fadein 1s, fadedown 1s forwards;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 .hero-two {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   opacity: 0;
   animation: fadein 1s forwards, fadedown 1s forwards;
   animation-delay: 1s;
 }
 
 .hero-three {
-  font-size: 2rem;
+  font-size: 2.5rem;
   opacity: 0;
   animation: fadein 1s forwards, fadedown 1s forwards;
   animation-delay: 2s;
 }
 
-
 .view-button {
-  margin-top: 30px;
-  border: 2px solid red;
+  opacity: 0;
+  animation: fadein 2s forwards;
+  animation-delay: 3s;
   border-radius: 8px;
   padding: 8px;
-  width: 180px;
-  font-size: 1.5rem;
-  opacity: 0;
+  width: 19rem;
+  font-size: 2rem;
   background: linear-gradient(to left, transparent 50%, red 50%) right;
   background-size: 200%;
-  animation: fadein 2s forwards;
-  animation-delay: 3.5s;
   transition: background-position .2s ease-out;
 
   a {
     text-decoration: none;
-    color: red;
     display: flex;
-    justify-content: space-around;
+    gap: 0.7rem;
     align-items: center;
     transition: transform .2s;
+  }
+
+  .arrow {
+    margin-top: 0.5rem;
   }
 
   &:hover {
     background-position: left;
 
     a {
-      transform: translateX(13px);
+      transform: translateX(1.3rem);
     }
   }
 }

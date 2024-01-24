@@ -10,8 +10,7 @@ class Skills extends Component {
 
     return (
         <section id="skills" className="section-content">
-          <div className="col-md-12">
-            <div className="col-md-12">
+            <div>
               <h1 className="section-title"> {sectionName}</h1>
             </div>
             <div className="col-md-12 text-center skills-container">
@@ -28,7 +27,6 @@ class Skills extends Component {
                 <ul className="list-inline mx-auto skill-list">{dataSkills}</ul>
               </div>
             </div>
-          </div>
           <hr className="divider"></hr>
         </section>
     );
@@ -40,7 +38,7 @@ class Skills extends Component {
     return (
         <li className="list-inline-item mx-3" key={index}>
             <span>
-              <div className="text-center skills-tile">
+              <div className="text-center skills-tile hover-expand">
                 <i className={skill.class} style={{ fontSize: "220%" }}>
                   <p
                       className="text-center"

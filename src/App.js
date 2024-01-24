@@ -104,7 +104,8 @@ class App extends Component {
               resumeBasicInfo={this.state.resumeData.basic_info}
           />
           <Contact resumeProjects={this.state.resumeData.basic_info}
-                   resumeBasicInfo={this.state.resumeData.basic_info}>
+                   resumeBasicInfo={this.state.resumeData.basic_info}
+                   sharedBasicInfo={this.state.sharedData.basic_info}>
 
           </Contact>
         </div>

@@ -5,23 +5,28 @@
 }
 
 .nav-bar {
-  background-color: hsla(0, 5%, 15%, 0.75);
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 4rem;
+  width: 100vw;
   position: fixed;
   z-index: 10;
-  opacity: 100%;
+
   font-size: 3rem;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  width: 100vw;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem 4rem;
   margin-right: 10rem;
+  backdrop-filter: blur(100px);
 }
 
-.nav-button {
+.nav-link {
+  background-color: transparent;
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
   border: 0;
 }
 

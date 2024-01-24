@@ -4,6 +4,7 @@ import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "../scss/themes/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/themes/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+import {FiArrowUpRight} from "react-icons/fi"
 
 class ProjectDetailsSection extends Component {
   render() {
@@ -24,7 +25,7 @@ class ProjectDetailsSection extends Component {
           return (
             <li className="list-inline-item mx-4" key={i}>
               <span>
-                <div className="text-center small-icons">
+                <div className="text-center small-icons hover-expand">
                   <i className={icons.class} style={{ fontSize: "300%" }}>
                     <p className="text-center" style={{ fontSize: "30%" }}>
                       {icons.name}
@@ -51,7 +52,7 @@ class ProjectDetailsSection extends Component {
     }
 
     return (
-        <section id={title} className={order + " project-section"}>
+        <section id={title} className={order + " project-section hover-opacity"}>
           <div className={odd}>
             <h1 className="project-header">{title}</h1>
             <h2 className="project-subheader">{subTitle}</h2>
@@ -73,8 +74,9 @@ class ProjectDetailsSection extends Component {
                 </div>
               </div>
 
-              <a>
-                <button className={onOff + " project-link-button"}>Project Files <i className="arrow"></i></button>
+              <a href={url} className={onOff + " project-link"}>
+                  <p className="link-text">Project Files</p>
+                <FiArrowUpRight />
               </a>
 
             </div>
