@@ -1,9 +1,9 @@
 
 #skills {
   padding-top: 5vh;
- }
+}
 
-.skills-container{
+.skills-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -16,10 +16,11 @@
   margin: 0 5rem;
   align-items: center;
 }
+
 .skill-list {
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: 11rem 11rem ;
+  grid-template-columns: 11rem 11rem;
   font-size: 200%;
   position: relative;
   margin-top: 2rem;

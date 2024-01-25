@@ -1,6 +1,5 @@
 
-
-.project-header{
+.project-header {
   font-size: 5rem;
   @media only screen and (max-width: 1050px) {
     font-size: 4rem;
@@ -122,6 +121,7 @@
 // Images
 .project-image-container {
   display: grid;
+
   &:hover > .blur {
     filter: blur(2rem);
 

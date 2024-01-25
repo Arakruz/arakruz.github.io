@@ -3,151 +3,153 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
 html {
-	font-size: 62.5%;
-	-webkit-font-smoothing: antialiased;
-	padding: 0;
-	margin: 0;
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  margin: 0;
 }
 
 .links {
-	display: flex;
-	gap: 1.5vw;
+  display: flex;
+  gap: 1.5vw;
 }
 
 header h1 {
-	text-align: center;
-	font-weight: 600 !important;
-	font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif;
-	margin: 0 auto 18px auto;
-	width: 100%;
+  text-align: center;
+  font-weight: 600 !important;
+  font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif;
+  margin: 0 auto 18px auto;
+  width: 100%;
 }
 
 .hover-expand {
-	transition: transform 600ms ease-out;
+  transition: transform 600ms ease-out;
 }
 
 .hover-expand:hover {
-	transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .hover-opacity {
-	opacity: 65%;
-	transition: opacity 600ms ease;
+  opacity: 65%;
+  transition: opacity 600ms ease;
 }
 
 .hover-opacity:hover {
-	opacity: 100%;
+  opacity: 100%;
 }
 
 .hidden {
-	visibility: hidden;
+  visibility: hidden;
 }
 
 .section-content {
-	max-width: 1440px;
-	width: 70%;
-	align-self: center;
+  max-width: 1440px;
+  width: 70%;
+  align-self: center;
 }
 
 a {
-	display: flex;
-	width: fit-content;
-	cursor: pointer;
-	transition: text-shadow 500ms;
-	color: white;
-	text-decoration: none;
-	&:hover {
-		p {
-			text-shadow: 0 0 5px rgba(255, 255, 255, 0.664);
-			&::after {
-				transform: scaleX(1) translateY(0.5rem);
-				transform-origin: left;
-			}
-		}
-	}
+  display: flex;
+  width: fit-content;
+  cursor: pointer;
+  transition: text-shadow 500ms;
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    p {
+      text-shadow: 0 0 5px rgba(255, 255, 255, 0.664);
+
+      &::after {
+        transform: scaleX(1) translateY(0.5rem);
+        transform-origin: left;
+      }
+    }
+  }
 }
 
 .link-text {
-	position: relative;
-	width: fit-content;
-	cursor: pointer;
-	transition: text-shadow 0.5s;
-	margin: 0;
+  position: relative;
+  width: fit-content;
+  cursor: pointer;
+  transition: text-shadow 0.5s;
+  margin: 0;
 
-	&::after {
-		position: absolute;
-		content: " ";
-		bottom: 0;
-		left: 0;
-		width: 100%;
-		transform: scaleX(0) translateY(0.5rem);
-		transform-origin: right;
-		transition: transform 500ms;
-		height: 3px;
-		background-color: rgb(255, 255, 255, 0.64);
-	}
+  &::after {
+    position: absolute;
+    content: " ";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform: scaleX(0) translateY(0.5rem);
+    transform-origin: right;
+    transition: transform 500ms;
+    height: 3px;
+    background-color: rgb(255, 255, 255, 0.64);
+  }
 }
 
 .slider-image {
-	border: 5px solid #D7CAAA;
+  border: 5px solid #D7CAAA;
 }
 
 .slider-tab {
-	background-color: #D7CAAA;
-	height: 25px;
+  background-color: #D7CAAA;
+  height: 25px;
 }
 
 .slider-iconfiy {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
 .styles_typicalWrapper__1_Uvh::after {
-	cursor: none !important;
-	display: none;
+  cursor: none !important;
+  display: none;
 }
 
 
 .link-href {
-	color: black;
+  color: black;
 }
 
 .wave {
-	font-size: 160%;
+  font-size: 160%;
 }
 
 .font-trebuchet {
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .center {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.divider{
-	width: 100%;
-	height: 1px;
-	margin: 5vh 0;
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 5vh 0;
 }
 
 .awssld__next {
-	outline: none !important;
+  outline: none !important;
 }
 
 .awssld__prev {
-	outline: none !important;
+  outline: none !important;
 }
 
 .loader-bar-color {
-	color: black !important;
+  color: black !important;
 }
 
 .section-title {
-	//padding-top: 5%;
-	padding-bottom: 5%;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	text-align: center;
+  //padding-top: 5%;
+  padding-bottom: 5%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
 }
 

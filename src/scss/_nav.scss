@@ -30,8 +30,9 @@
   border: 0;
 }
 
-.option-container{
+.option-container {
   display: flex;
+  visibility: hidden;
   justify-content: center;
   align-content: center;
   gap: 1.5vw;

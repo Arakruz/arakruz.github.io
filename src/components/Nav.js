@@ -1,6 +1,5 @@
 import Switch from "react-switch";
 import React, {Component} from "react";
-import app from "../App.js";
 
 class Nav extends Component {
     titles = [];

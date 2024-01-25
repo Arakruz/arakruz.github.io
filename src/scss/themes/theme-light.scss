@@ -25,6 +25,7 @@ body[data-theme="light"] {
 
   .home {
     background-color: $primary-bg-light;
+
     h1 {
       color: $primary-bg-dark;
     }
@@ -32,12 +33,15 @@ body[data-theme="light"] {
 
   #about {
     background-color: $primary-bg-light;
+
     h1 span {
       color: $primary-bg-dark;
     }
+
     .polaroid span {
-      background:  #6d6d6d;
+      background: #6d6d6d;
     }
+
     .card {
       background: #6d6d6d;
       color: $primary-bg-dark;
@@ -46,12 +50,15 @@ body[data-theme="light"] {
 
   #portfolio {
     background: #5b5b5b;
+
     .section-title {
       color: $primary-bg-dark !important;
     }
+
     .foto div {
       background: #6d6d6d;
     }
+
     .project-title-settings {
       color: $primary-bg-dark;
     }
@@ -60,6 +67,7 @@ body[data-theme="light"] {
   #experience {
     filter: brightness(80%);
     background: #5b5b5b;
+
     .section-title {
       color: $primary-bg-dark !important;
     }

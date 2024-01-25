@@ -1,81 +1,82 @@
-body[data-theme="dark"] {  
+body[data-theme="dark"] {
 
-   @import 'dark-slider';
-   @import "../shared-colors";
+  @import 'dark-slider';
+  @import "../shared-colors";
 
-   html {
+  html {
+    color: $primary-bg-light;
+    background-color: $primary-bg-dark;
+  }
+
+  .divider h1 h2 h3 .get-in-touch .project-link-button .title-styles .icon-container .nav-bar .link-href .project-header {
+    color: $primary-bg-light;
+  }
+
+  .project-date .project-section {
+    background-color: transparent;
+    color: $primary-bg-light;
+  }
+
+  .background .center {
+    background-color: $primary-bg-dark;
+  }
+
+  .nav-bar {
+    background-color: hsla(0, 22%, 10%, 30%);
+  }
+
+  .nav-link {
+    color: rgba(238, 240, 235, 0.60);
+  }
+
+  .link-text {
+    &::after {
+      background-color: $primary-bg-light;
+    }
+  }
+
+  .view-button {
+    border: 2px solid $tertiary-dark;
+
+    .arrow {
+      color: red;
+    }
+
+    a {
       color: $primary-bg-light;
-      background-color: $primary-bg-dark;
-   }
+    }
+  }
 
-   .divider h1 h2 h3 .get-in-touch .project-link-button .title-styles .icon-container .nav-bar .link-href .project-header {
-      color: $primary-bg-light;
-   }
-
-   .project-date .project-section {
-      background-color: transparent;
-      color: $primary-bg-light;
-   }
-
-   .background .center {
-      background-color: $primary-bg-dark;
-   }
-
-   .nav-bar {
-      background-color: hsla(0, 22%,10%, 30%);
-   }
-
-   .nav-link {
-      color: rgba(238, 240, 235, 0.60);
-   }
-
-   .link-text {
-      &::after {
-         background-color: $primary-bg-light;
-      }
-   }
-
-   .view-button {
-      border: 2px solid $tertiary-dark;
-      .arrow {
-         color: red;
-      }
-
-      a {
-         color: $primary-bg-light;
-      }
-   }
-
-   footer {
-      background-color: $primary-bg-dark;
-      color: $primary-bg-light;
-   }
+  footer {
+    background-color: $primary-bg-dark;
+    color: $primary-bg-light;
+  }
 
 
-   .slider-image {
-      border: 5px solid $grey;
-   }
+  .slider-image {
+    border: 5px solid $grey;
+  }
 
-   .nav-button{
-      background-color: transparent;
-   }
+  .nav-button {
+    background-color: transparent;
+  }
 
-   h1 {
-      color: $primary-bg-light;
-   }
+  h1 {
+    color: $primary-bg-light;
+  }
 
 
-   //#experience {
-   //   filter: brightness(80%);
-   //   background: $primary-bg-dark;
-   //
-   //   .experience-badge {
-   //      background: $primary-bg-dark !important;
-   //      color: $primary-bg-light;
-   //   }
-   //
-   //   .main-badge {
-   //      background: $primary-bg-dark !important;
-   //   }
-   //}
+  //#experience {
+  //   filter: brightness(80%);
+  //   background: $primary-bg-dark;
+  //
+  //   .experience-badge {
+  //      background: $primary-bg-dark !important;
+  //      color: $primary-bg-light;
+  //   }
+  //
+  //   .main-badge {
+  //      background: $primary-bg-dark !important;
+  //   }
+  //}
 }

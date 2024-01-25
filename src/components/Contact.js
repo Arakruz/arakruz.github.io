@@ -19,7 +19,7 @@ class Contact extends Component {
         if (this.props.resumeBasicInfo) {
             let sectionName = this.props.resumeBasicInfo.section_name.contact;
 
-        return (
+            return (
                 <section id="contact">
                     <h1 className="section-title">{sectionName}</h1>
                     <div className="col-md-12 contact-info">
@@ -30,7 +30,7 @@ class Contact extends Component {
                         <div className="social-links">{networks}</div>
                     </div>
                 </section>
-        );
+            );
         }
     }
 }
