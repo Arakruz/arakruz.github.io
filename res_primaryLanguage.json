@@ -19,7 +19,7 @@
       "subTitle": "UBC Game dev Club",
       "startDate": "2020",
       "description": "A mobile adventure game focused on allowing the player to cast spells by drawing on the screen while they explore a fantasy world. I worked as a systems programmer to implement day-night cycles, in-editor dev tools to facilitate development, player-environment and player-enemy interactions, and a modular spell system for fast prototyping and increased gameplay variety.",
-      "image": "images/portfolio/InDevelopment.png",
+      "image": "images/portfolio/Spellrise.gif",
       "imageAlt": [
         "Gif showcasing the game, including the spell drawing feature"
       ],
@@ -127,7 +127,7 @@
       "subTitle": "Statistics class project",
       "startDate": "2022",
       "description": "Analysis of Vancouver crime data to see if there was any noticeable impact of the COVID-19 pandemic on the crime rate in each neighbourhood of the city. For this project, we used R and Jupyter Notebooks to optimize datasets, wrangle data, make data analysis workflows, conduct statistical analysis and create visualizations.",
-      "image": "images/portfolio/InDevelopment.png",
+      "image": "images/portfolio/Stats.png",
       "imageAlt": [
         "alt"
       ],
@@ -177,7 +177,7 @@
       "subTitle": "Cognitive Systems Design class project",
       "startDate": "2023",
       "description": "The final project for a Cognitive Systems Design and Analysis class where groups of three to four students were tasked to develop and train a machine learning agent using Unity and C# to compete in a given game. \nDue to my prior experience with Unity, I was the project's main developer, agent and reward designer, implementing all observation capabilities for the agent and setting the training specifications. We ranked third in the class competition involving all students from all sections.",
-      "image": "images/portfolio/InDevelopment.png",
+      "image": "images/portfolio/MLAgentTraining.gif",
       "imageAlt": [
         "alt"
       ],
