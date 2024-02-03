@@ -31,7 +31,7 @@ header h1 {
 }
 
 .hover-opacity {
-  opacity: 65%;
+  opacity: 80%;
   transition: opacity 600ms ease;
 }
 
@@ -54,12 +54,10 @@ a {
   width: fit-content;
   cursor: pointer;
   transition: text-shadow 500ms;
-  color: white;
   text-decoration: none;
 
   &:hover {
     p {
-      text-shadow: 0 0 5px rgba(255, 255, 255, 0.664);
 
       &::after {
         transform: scaleX(1) translateY(0.5rem);

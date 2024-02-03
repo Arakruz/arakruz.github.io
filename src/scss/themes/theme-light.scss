@@ -2,92 +2,80 @@ body[data-theme="light"] {
   @import 'light-slider';
   @import '../shared-colors';
 
-  .slider-tab {
-    background-color: $primary-bg-dark;
-  }
-
-  .title-styles {
+  html {
     color: $primary-bg-dark;
-  }
-
-  .slider-image {
-    border: 5px solid $grey;
-  }
-
-  .link-href {
-    color: $primary-bg-dark;
-  }
-
-  .project-date {
-    background-color: #918e97;
-    color: $primary-bg-dark;
-  }
-
-  .home {
     background-color: $primary-bg-light;
-
-    h1 {
-      color: $primary-bg-dark;
-    }
   }
 
-  #about {
+  .divider, h1, h2, h3, .get-in-touch, .project-link-button, .title-styles, .icon-container, .nav-bar, .link-href, .project-header {
+    color: $primary-bg-dark;
+  }
+
+  .project-date, .project-section {
+    background-color: transparent;
+    color: $primary-bg-dark;
+  }
+
+  .background, .center {
     background-color: $primary-bg-light;
+  }
 
-    h1 span {
-      color: $primary-bg-dark;
+  .nav-bar {
+    background-color: hsla(0, 22%, 10%, 10%);
+  }
+
+  .nav-link {
+    color: $primary-bg-dark;
+
+    &:hover {
+      color: transparentize($primary-bg-dark, 0.5);
+    }
+  }
+
+  .link-text {
+    &::after {
+      background-color: $primary-bg-light;
+    }
+  }
+
+  .view-button {
+    border: 2px solid red;
+
+    .arrow {
+      color: red;
     }
 
-    .polaroid span {
-      background: #6d6d6d;
-    }
-
-    .card {
-      background: #6d6d6d;
+    a {
       color: $primary-bg-dark;
     }
   }
 
-  #portfolio {
-    background: #5b5b5b;
-
-    .section-title {
-      color: $primary-bg-dark !important;
-    }
-
-    .foto div {
-      background: #6d6d6d;
-    }
-
-    .project-title-settings {
-      color: $primary-bg-dark;
-    }
+  .name {
+    color: red;
   }
 
-  #experience {
-    filter: brightness(80%);
-    background: #5b5b5b;
 
-    .section-title {
-      color: $primary-bg-dark !important;
-    }
 
-    .experience-badge {
-      background: #919191 !important;
-      color: $primary-bg-dark;
-    }
-
-    .main-badge {
-      background: #919191 !important;
-    }
-  }
-
-  .modal-inside .modal-content {
-    background: #5b5b5b;
+  footer {
+    background-color: $primary-bg-light;
     color: $primary-bg-dark;
   }
 
-  .close-icon {
+  .nav-button {
+    background-color: transparent;
+  }
+
+  a {
     color: $primary-bg-dark;
+
+    &:hover {
+      p {
+        text-shadow: 0 0 2px rgba(21, 13, 13, 0.6);
+      }
+    }
+  }
+
+  .skills-tile {
+    background-color: transparentize($primary-bg-dark, 0.92);
   }
 }
