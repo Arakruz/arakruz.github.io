@@ -112,7 +112,7 @@ class Nav extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="links">
+                <div className="nav-links-container">
                     <a className="nav-link" href="#hero">Home</a>
                     <a className="nav-link" href="#about">About</a>
                     <a className="nav-link" href="#projects">Projects</a>

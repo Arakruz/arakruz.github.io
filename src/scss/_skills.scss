@@ -1,6 +1,9 @@
 
 #skills {
   padding-top: 10vh;
+  @media only screen and (max-width: 1050px) {
+    padding-top: 7vh;
+  }
 }
 
 .skills-container {
@@ -10,11 +13,22 @@
   text-align: left;
   padding-bottom: 10vh;
   padding-top: 5vh;
+
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+  }
 }
 
 .icon-container {
   margin: 0 5rem;
   align-items: center;
+  @media only screen and (max-width: 1050px) {
+    margin: 0 1rem;
+  }
 }
 
 .skill-list {
@@ -24,11 +38,17 @@
   font-size: 200%;
   position: relative;
   margin-top: 2rem;
+  @media only screen and (max-width: 1050px) {
+
+    justify-content: center;
+    text-align: left;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+  }
 }
 
 .skills-tile {
   align-items: center;
-
   padding: 1.75rem 1rem 0.5rem 1rem;
   width: 100px;
   margin: 0.5rem 0 0.5rem 0;

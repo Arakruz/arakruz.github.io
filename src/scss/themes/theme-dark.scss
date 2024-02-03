@@ -1,7 +1,10 @@
 body[data-theme="dark"] {
 
-  @import 'dark-slider';
   @import "../shared-colors";
+
+  html {
+    background-color: black;
+  }
 
   .divider, h1, h2, h3, .get-in-touch, .project-link-button, .title-styles, .icon-container, .nav-bar, .link-href, .project-header, p, span, i {
     color: white;
@@ -44,6 +47,10 @@ body[data-theme="dark"] {
     a {
       color: $primary-bg-light;
     }
+  }
+
+  .name {
+    color:red;
   }
 
   footer {

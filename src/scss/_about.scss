@@ -1,7 +1,13 @@
 #about {
-  overflow: hidden;
+  @media only screen and (max-width: 1050px) {
+    padding-top: 5vh;
+  }
 }
 
 .about-description {
   font-size: 2rem;
+
+  @media only screen and (max-width: 1050px) {
+    font-size: 1.5rem;
+  }
 }
