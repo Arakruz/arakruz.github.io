@@ -51,7 +51,8 @@ This is my personal portfolio website, created to showcase my past projects and 
 - [ ] Finalize text sections  
 - [ ] Fix accessibility issues
 - [ ] Finilize metadata
-- [ ] FInilize mobile implementation
+- [ ] Finilize mobile implementation
+- [ ] Run tests 
 ## Extras
 - [ ] Add Portuguese translation
 - [ ] Reintroduce language buttons
