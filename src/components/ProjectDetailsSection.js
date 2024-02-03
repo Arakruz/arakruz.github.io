@@ -20,11 +20,11 @@ class ProjectDetailsSection extends Component {
             if (this.props.data.technologies) {
                 var tech = technologies.map((icons, i) => {
                     return (
-                        <li className="list-inline-item mx-4" key={i}>
+                        <li className="list-inline-item icon-list" key={i}>
               <span>
                 <div className="text-center small-icons hover-expand">
-                  <i className={icons.class} style={{fontSize: "300%"}}>
-                    <p className="text-center" style={{fontSize: "30%"}}>
+                  <i className={icons.class} style={{fontSize: "100%"}}>
+                    <p className="text-center" style={{fontSize: "40%"}}>
                       {icons.name}
                     </p>
                   </i>

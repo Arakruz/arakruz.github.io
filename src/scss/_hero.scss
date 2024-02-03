@@ -1,6 +1,4 @@
 .hero {
-  width: 100%;
-  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,10 +20,11 @@
     align-items: center;
     font-weight: bold;
     position: relative;
+  }
 
-    .name {
-      color: red;
-    }
+  @media only screen and (max-width: 1050px) {
+    width: 80vw;
+    height: 30vh;
   }
 }
 
@@ -33,6 +32,10 @@
   font-size: 4.5rem;
   animation: fadein 1s, fadedown 1s forwards;
   margin-bottom: 0.5rem;
+
+  @media only screen and (max-width: 1050px) {
+    font-size: 3rem;
+  }
 }
 
 .hero-two {
@@ -40,6 +43,10 @@
   opacity: 0;
   animation: fadein 1s forwards, fadedown 1s forwards;
   animation-delay: 1s;
+
+  @media only screen and (max-width: 1050px) {
+    font-size: 2.5rem;
+  }
 }
 
 .hero-three {
@@ -47,6 +54,10 @@
   opacity: 0;
   animation: fadein 1s forwards, fadedown 1s forwards;
   animation-delay: 2s;
+
+  @media only screen and (max-width: 1050px) {
+    font-size: 2rem;
+  }
 }
 
 .view-button {
@@ -79,6 +90,10 @@
     a {
       transform: translateX(1.3rem);
     }
+  }
+
+  @media only screen and (max-width: 1050px) {
+    margin-top: 10rem;
   }
 }
 

@@ -33,40 +33,6 @@ class Nav extends Component {
         return (
             <nav className="nav-bar">
                 <div className="option-container">
-                    <div className="language-container">
-                        <div
-                            onClick={() =>
-                                app.applyPickedLanguage(
-                                    window.$primaryLanguage,
-                                    window.$secondaryLanguageIconId
-                                )
-                            }
-                            style={{display: "inline"}}
-                        >
-                                <span
-                                    className="iconify language-icon mr-5"
-                                    data-icon="twemoji-flag-for-flag-united-kingdom"
-                                    data-inline="false"
-                                    id={window.$primaryLanguageIconId}
-                                ></span>
-                        </div>
-                        <div
-                            onClick={() =>
-                                app.applyPickedLanguage(
-                                    window.$secondaryLanguage,
-                                    window.$primaryLanguageIconId
-                                )
-                            }
-                            style={{display: "inline"}}
-                        >
-                                <span
-                                    className="iconify language-icon"
-                                    data-icon="twemoji-flag-for-flag-brazil"
-                                    data-inline="false"
-                                    id={window.$secondaryLanguageIconId}
-                                ></span>
-                        </div>
-                    </div>
                     <div className="theme-container">
                         <Switch
                             checked={this.state.checked}
@@ -111,10 +77,43 @@ class Nav extends Component {
                             id="icon-switch"
                         />
                     </div>
+                    <div className="language-container">
+                        <div
+                            onClick={() =>
+                                app.applyPickedLanguage(
+                                    window.$primaryLanguage,
+                                    window.$secondaryLanguageIconId
+                                )
+                            }
+                            style={{display: "inline"}}
+                        >
+                                <span
+                                    className="iconify language-icon mr-5"
+                                    data-icon="twemoji-flag-for-flag-united-kingdom"
+                                    data-inline="false"
+                                    id={window.$primaryLanguageIconId}
+                                ></span>
+                        </div>
+                        <div
+                            onClick={() =>
+                                app.applyPickedLanguage(
+                                    window.$secondaryLanguage,
+                                    window.$primaryLanguageIconId
+                                )
+                            }
+                            style={{display: "inline"}}
+                        >
+                                <span
+                                    className="iconify language-icon"
+                                    data-icon="twemoji-flag-for-flag-brazil"
+                                    data-inline="false"
+                                    id={window.$secondaryLanguageIconId}
+                                ></span>
+                        </div>
+                    </div>
                 </div>
-                <div className="links">
-                    <a className="nav-link nav-button" href="#hero">Home</a>
-
+                <div className="nav-links-container">
+                    <a className="nav-link" href="#hero">Home</a>
                     <a className="nav-link" href="#about">About</a>
                     <a className="nav-link" href="#projects">Projects</a>
                     <a className="nav-link" href="#skills">Skills</a>

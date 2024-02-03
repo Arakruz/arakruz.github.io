@@ -1,23 +1,21 @@
 body[data-theme="dark"] {
 
-  @import 'dark-slider';
   @import "../shared-colors";
 
   html {
-    color: $primary-bg-light;
-    background-color: $primary-bg-dark;
+    background-color: black;
   }
 
-  .divider h1 h2 h3 .get-in-touch .project-link-button .title-styles .icon-container .nav-bar .link-href .project-header {
-    color: $primary-bg-light;
+  .divider, h1, h2, h3, .get-in-touch, .project-link-button, .title-styles, .icon-container, .nav-bar, .link-href, .project-header, p, span, i {
+    color: white;
   }
 
-  .project-date .project-section {
+  .project-date, .project-section {
     background-color: transparent;
     color: $primary-bg-light;
   }
 
-  .background .center {
+  .background, .center {
     background-color: $primary-bg-dark;
   }
 
@@ -27,6 +25,10 @@ body[data-theme="dark"] {
 
   .nav-link {
     color: rgba(238, 240, 235, 0.60);
+
+    &:hover {
+      color: $primary-bg-light;
+    }
   }
 
   .link-text {
@@ -47,36 +49,30 @@ body[data-theme="dark"] {
     }
   }
 
+  .name {
+    color:red;
+  }
+
   footer {
     background-color: $primary-bg-dark;
     color: $primary-bg-light;
-  }
-
-
-  .slider-image {
-    border: 5px solid $grey;
   }
 
   .nav-button {
     background-color: transparent;
   }
 
-  h1 {
-    color: $primary-bg-light;
+  a {
+    color: $primary-bg-dark;
+
+    &:hover {
+      p {
+        text-shadow: 0 0 2px rgba(21, 13, 13, 0.6);
+      }
+    }
   }
 
-
-  //#experience {
-  //   filter: brightness(80%);
-  //   background: $primary-bg-dark;
-  //
-  //   .experience-badge {
-  //      background: $primary-bg-dark !important;
-  //      color: $primary-bg-light;
-  //   }
-  //
-  //   .main-badge {
-  //      background: $primary-bg-dark !important;
-  //   }
-  //}
+  .skills-tile {
+    background-color: transparentize($primary-bg-light, 0.95);
+  }
 }

@@ -2,12 +2,18 @@
 .project-header {
   font-size: 5rem;
   @media only screen and (max-width: 1050px) {
-    font-size: 4rem;
+    text-align: center;
+    font-size: 3rem;
   }
 }
 
 .project-subheader {
   font-size: 3rem;
+
+  @media only screen and (max-width: 1050px) {
+    text-align: center;
+    font-size: 2rem;
+  }
 }
 
 .project-link {
@@ -21,41 +27,60 @@
 
 .project-date {
   font-size: 3rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  position: relative;
+
+  @media only screen and (max-width: 1050px) {
+    text-align: center;
+    font-size: 1.75rem;
+  }
 }
 
 .small-icons {
-  font-size: 2rem;
+  font-size: 6rem;
+  @media only screen and (max-width: 1050px) {
+    font-size: 4rem;
+  }
 }
 
-.projects-container {
-  display: flex;
-  flex-direction: column;
-  height: fit-content;
-  box-sizing: border-box;
+.icon-list {
+  margin: 0 1.5vw;
 
   @media only screen and (max-width: 1050px) {
-    padding: 0;
-    border: none;
-    border-radius: 0;
-    height: fit-content;
+    margin: 0 2vw;
+  }
+}
+
+.summary {
+  font-size: 4rem;
+
+  @media only screen and (max-width: 1050px) {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 3rem;
   }
 }
 
 .description-text {
   font-size: 2.1rem;
+
+  @media only screen and (max-width: 1050px) {
+    text-align: center;
+    font-size: 1.75rem;
+  }
 }
 
 .project-text-container {
   display: flex;
-  max-width: 30vw;
+  max-width: 25vw;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  @media only screen and (max-width: 1050px) {
+    max-width: 75vw;
+  }
 }
 
 .details {
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: space-around;
   gap: 5rem;
@@ -86,7 +111,7 @@
   @media only screen and (max-width: 1050px) {
     display: flex;
     flex-direction: column;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
   }
 }
 
@@ -100,15 +125,28 @@
 
 .even-info-container {
   text-align: left;
+
+  @media only screen and (max-width: 1050px) {
+    text-align: center;
+  }
 }
 
 .odd {
   align-items: end;
   text-align: right;
+
+  @media only screen and (max-width: 1050px) {
+    text-align: center;
+    align-items: center;
+  }
 }
 
 .even {
   text-align: right;
+
+  @media only screen and (max-width: 1050px) {
+    text-align: center;
+  }
 }
 
 .tech {
@@ -124,7 +162,6 @@
 
   &:hover > .blur {
     filter: blur(2rem);
-
   }
 }
 
@@ -157,6 +194,10 @@
   object-position: center;
   max-width: 23vw;
   border-radius: 7px;
+
+  @media only screen and (max-width: 1050px) {
+    max-width: 70vw;
+  }
 }
 
 

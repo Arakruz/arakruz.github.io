@@ -10,11 +10,11 @@ class About extends Component {
         return (
             <section id="about" className="section-content">
                 <hr className="divider"></hr>
-                <div className="col-md-12 hover-opacity">
+                <div className="hover-opacity">
                     <h1 className="section-title">
                         {sectionName}
                     </h1>
-                    <span className="about-description ">
+                    <span className="about-description">
                         {about}
                     </span>
                 </div>
