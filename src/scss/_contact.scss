@@ -24,6 +24,8 @@
   height: 83vh;
   overflow: hidden;
   padding-bottom: 15vh;
+  animation: fadein 2s forwards;
+  animation-delay: 0.5s;
   @media only screen and (max-width: 1050px) {
     height: 80vh;
     padding-bottom: 0;
@@ -34,7 +36,7 @@
 .social-links {
   opacity: 0;
   animation: fadein 2s forwards;
-  animation-delay: 3s;
+  animation-delay: 1.5s;
   margin-top: 2rem;
   display: flex;
   justify-content: center;
