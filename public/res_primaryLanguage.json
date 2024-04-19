@@ -21,9 +21,9 @@
       "description": "A mobile adventure game focused on allowing the player to cast spells by drawing on the screen while they explore a fantasy world. I worked as a systems programmer to implement day-night cycles, in-editor dev tools to facilitate development, player-environment and player-enemy interactions, and a modular spell system for fast prototyping and increased gameplay variety.",
       "image": "images/portfolio/Spellrise.gif",
       "imageAlt": [
-        "Gif showcasing the game, including the spell drawing feature"
+        "Gif showcasing the game, including a mobile screen spell drawing feature"
       ],
-      "url": "pedronovais.com",
+      "url": "",
       "technologies": [
         {
           "class": "devicon-csharp-plain",
@@ -44,23 +44,23 @@
       ]
     },
     {
-      "title": "Pomodoro Timer",
-      "subTitle": "Software Construction class project",
-      "startDate": "2021",
-      "description": "This was my first complete software project and a final assignment for a Software Construction class. I learned and applied object-oriented programming skills and design patterns to create an app in Java to keep track of, record, and plan focus sessions used in the Pomodoro study technique, facilitating its use. I also employed test-driven development to guarantee code reliability and robustness using JUnit while following best practices and writing extensive documentation to simplify code inspection.",
-      "image": "images/portfolio/Pomodoro.png",
+      "title": "Crime Rate Analysis in Vancouver",
+      "subTitle": "Statistics class project",
+      "startDate": "2022",
+      "description": "Analysis of Vancouver crime data to see if there was any noticeable impact of the COVID-19 pandemic on the crime rate in each neighbourhood of the city. For this project, we used R and Jupyter Notebooks to optimize datasets, wrangle data, make data analysis workflows, conduct statistical analysis and create visualizations.",
+      "image": "images/portfolio/Stats.png",
       "imageAlt": [
-        "alt"
+        "Screenshot of the project files, including graphs of the data"
       ],
-      "url": "https://github.com/Arakruz/Pomodoro-Timer",
+      "url": "https://github.com/Arakruz/STAT201_Project_Group_30",
       "technologies": [
         {
-          "class": "devicon-java-plain",
-          "name": "Java"
+          "class": "devicon-r-plain",
+          "name": "R"
         },
         {
-          "class": "devicon-intellij-plain",
-          "name": "intellij"
+          "class": "devicon-jupyter-plain",
+          "name": "Jupyter"
         },
         {
           "class": "devicon-github-plain",
@@ -69,13 +69,56 @@
       ]
     },
     {
-      "title": "Tower Defense Project",
-      "subTitle": "UBC Game Dev Club - In development",
+      "title": "ML Agent Training",
+      "subTitle": "Cognitive Systems Design class project",
       "startDate": "2023",
-      "description": "Plants vs zombies inspired Tower Defense game built with Unreal Engine, C++, Blueprints and Perforce. I am currently working as a programmer and team lead for a team of ten developers. The main features I have worked on so far were game logic, enemy wave creation, grid system, towers, UI, and in-editor tools to facilitate prototyping and testing. Besides programming tasks, I also worked on game design and team management.",
-      "image": "images/portfolio/InDevelopment.png",
+      "description": "The final project for a Cognitive Systems Design and Analysis class where groups of three to four students were tasked to develop and train a machine learning agent using Unity and C# to compete in a given game. \nDue to my prior experience with Unity, I was the project's main developer, agent and reward designer, implementing all observation capabilities for the agent and setting the training specifications. We ranked third in the class competition involving all students from all sections.",
+      "image": "images/portfolio/MLAgentTraining.gif",
       "imageAlt": [
-        "alt"
+        "A gif of the agent training"
+      ],
+      "url": "https://github.com/Arakruz/Cogs_300_Project",
+      "technologies": [
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        },
+        {
+          "class": "devicon-unity-plain",
+          "name": "Unity"
+        },
+        {
+          "class": "devicon-github-plain",
+          "name": "Github"
+        }
+      ]
+    },
+    {
+      "title": "Environmental Psychology Research",
+      "subTitle": "Environmental Psychology course",
+      "startDate": "2024",
+      "description": "Research into the impacts of video game-themed messaging and posters on consumer behaviour. This research was conducted in partnership with the UBC SEEDS program with the goal of finding methods of reducing post-consumer food waste in the UBC dining halls. Our study was conducted over two weeks on UBC Open Kitchen, where over 2000 observations were collected in conjunction with quantitative data around food waste and foot traffic in the dining hall. Afterwards, data analysis was performed using R, where the data was cleaned, wrangled, and analyzed using Whitney-Mann U and Wilcoxon tests. Lastly, a report followed by a presentation was conducted for our client, providing recommendations for the future. I worked in study and graphic design, data collection and analysis, report and paper writing, and performed the presentation.",
+
+      "image": "images/portfolio/Poster1.jpg",
+      "imageAlt": [
+        "One of the posters used for the project"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-r-plain",
+          "name": "R"
+        }
+      ]
+    },
+    {
+      "title": "Tower Defense Project",
+      "subTitle": "UBC Game Dev Club",
+      "startDate": "2023",
+      "description": "Plants vs zombies inspired Tower Defense game built with Unreal Engine, C++, Blueprints and Perforce. I worked as a programmer and team lead for a team of ten developers. The main features I have worked on were game logic, enemy wave creation, grid system, towers, UI, and in-editor tools to facilitate prototyping and testing. Besides programming tasks, I also worked on game design and team management.",
+      "image": "images/portfolio/TD.png",
+      "imageAlt": [
+        "A screenshot of the game, showcasing different towers, enemies, and projectiles"
       ],
       "url": "",
       "technologies": [
@@ -94,13 +137,38 @@
       ]
     },
     {
+      "title": "Pomodoro Timer",
+      "subTitle": "Software Construction class project",
+      "startDate": "2021",
+      "description": "This was my first complete software project and a final assignment for a Software Construction class. I learned and applied object-oriented programming skills and design patterns to create an app in Java to keep track of, record, and plan focus sessions used in the Pomodoro study technique, facilitating its use. I also employed test-driven development to guarantee code reliability and robustness using JUnit while following best practices and writing extensive documentation to simplify code inspection.",
+      "image": "images/portfolio/Pomodoro.png",
+      "imageAlt": [
+        "A picture of the app main page"
+      ],
+      "url": "https://github.com/Arakruz/Pomodoro-Timer",
+      "technologies": [
+        {
+          "class": "devicon-java-plain",
+          "name": "Java"
+        },
+        {
+          "class": "devicon-intellij-plain",
+          "name": "intellij"
+        },
+        {
+          "class": "devicon-github-plain",
+          "name": "Github"
+        }
+      ]
+    },
+    {
       "title": "Real Time Strategy Game",
       "subTitle": "In development",
       "startDate": "2023",
       "description": "I am working as a programmer for the UBC Game Dev Club on a 2D Isometric RTS game built with Unity and C#. So far, I have worked on grid, navigation, and building systems.",
       "image": "images/portfolio/InDevelopment.png",
       "imageAlt": [
-        "alt"
+        "InDevelopment picture"
       ],
       "url": "",
       "technologies": [
@@ -123,88 +191,13 @@
       ]
     },
     {
-      "title": "Crime Rate Analysis in Vancouver",
-      "subTitle": "Statistics class project",
-      "startDate": "2022",
-      "description": "Analysis of Vancouver crime data to see if there was any noticeable impact of the COVID-19 pandemic on the crime rate in each neighbourhood of the city. For this project, we used R and Jupyter Notebooks to optimize datasets, wrangle data, make data analysis workflows, conduct statistical analysis and create visualizations.",
-      "image": "images/portfolio/Stats.png",
-      "imageAlt": [
-        "alt"
-      ],
-      "url": "https://github.com/Arakruz/STAT201_Project_Group_30",
-      "technologies": [
-        {
-          "class": "devicon-r-plain",
-          "name": "R"
-        },
-        {
-          "class": "devicon-jupyter-plain",
-          "name": "Jupyter"
-        },
-        {
-          "class": "devicon-github-plain",
-          "name": "Github"
-        }
-      ]
-    },
-    {
-      "title": "Housing Management System",
-      "subTitle": "Databases class project",
-      "startDate": "2023",
-      "description": "Project mimicking a simplified residence management system for a database class final assignment. We aimed to build software that can simulate a real-life use case by tracking tenants, mail, staff, rooms, buildings, equipment available to be rented, etc. I mainly worked on the Java GUI and database design, including ER diagram, normalization, and schema creation.",
-      "image": "images/portfolio/InDevelopment.png",
-      "imageAlt": [
-        "alt"
-      ],
-      "url": "https://github.com/Arakruz/Managment-System",
-      "technologies": [
-        {
-          "class": "devicon-java-plain",
-          "name": "Java"
-        },
-        {
-          "class": "devicon-oracle-plain",
-          "name": "Oracle"
-        },
-        {
-          "class": "devicon-github-plain",
-          "name": "Github"
-        }
-      ]
-    },
-    {
-      "title": "ML Agent Training",
-      "subTitle": "Cognitive Systems Design class project",
-      "startDate": "2023",
-      "description": "The final project for a Cognitive Systems Design and Analysis class where groups of three to four students were tasked to develop and train a machine learning agent using Unity and C# to compete in a given game. \nDue to my prior experience with Unity, I was the project's main developer, agent and reward designer, implementing all observation capabilities for the agent and setting the training specifications. We ranked third in the class competition involving all students from all sections.",
-      "image": "images/portfolio/MLAgentTraining.gif",
-      "imageAlt": [
-        "alt"
-      ],
-      "url": "https://github.com/Arakruz/Cogs_300_Project",
-      "technologies": [
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
-        },
-        {
-          "class": "devicon-unity-plain",
-          "name": "Unity"
-        },
-        {
-          "class": "devicon-github-plain",
-          "name": "Github"
-        }
-      ]
-    },
-    {
       "title": "Personal Portfolio",
       "subTitle": "You are on it!",
       "startDate": "2023",
-      "description": "Created to be a central place to display my past projects and hone my skills for future human-computer interaction classes and possible work opportunities. ",
-      "image": "images/portfolio/InDevelopment.png",
+      "description": "Created to be a central place to display my past projects and hone my skills for future human-computer interaction classes and possible work opportunities. Built using Node, React and SCSS ",
+      "image": "images/portfolio/Portfolio.png",
       "imageAlt": [
-        "alt"
+        "A screenshot of the landing page"
       ],
       "url": "https://github.com/Arakruz/arakruz.github.io",
       "technologies": [
@@ -231,6 +224,64 @@
         {
           "class": "devicon-figma-plain",
           "name": "Figma"
+        }
+      ]
+    },
+    {
+      "title": "Dashboard Website Prototype",
+      "subTitle": "",
+      "startDate": "2024",
+      "description": "A prototype of a dashboard website created using React and Tailwind. Mainly created as a UX exercise to learn more of React and Tailwind, it includes a warning system and a mockup of realtime data fed graphs",
+      "image": "images/portfolio/InDevelopment.png",
+      "imageAlt": [
+        "In development image"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "Javascript"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "Html"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "css"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-tailwindcss-plain",
+          "name": "Tailwind"
+        }
+      ]
+    },
+    {
+      "title": "Housing Management System",
+      "subTitle": "Databases class project",
+      "startDate": "2023",
+      "description": "Project mimicking a simplified residence management system for a database class final assignment. We aimed to build software that can simulate a real-life use case by tracking tenants, mail, staff, rooms, buildings, equipment available to be rented, etc. I mainly worked on the Java GUI and database design, including ER diagram, normalization, and schema creation.",
+      "image": "",
+      "imageAlt": [
+        ""
+      ],
+      "url": "https://github.com/Arakruz/Managment-System",
+      "technologies": [
+        {
+          "class": "devicon-java-plain",
+          "name": "Java"
+        },
+        {
+          "class": "devicon-oracle-plain",
+          "name": "Oracle"
+        },
+        {
+          "class": "devicon-github-plain",
+          "name": "Github"
         }
       ]
     }
