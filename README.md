@@ -24,12 +24,14 @@ This is my personal portfolio website, created to showcase my past projects and 
 - [ ] Add images for all projects
   - [X] Spellrise
   - [X] Pomodoro timer
-  - [ ] Tower Defense
+  - [X] Tower Defense
   - [ ] RTS Game
   - [X] Crime Stats
   - [ ] Housing management
   - [X] ML-Agents
-  - [ ] Personal Portfolio
+  - [X] Personal Portfolio
+  - [ ] Dashboard Website
+  - [X] Psych Research
 - [X]  Create base css for all elements
 - [X]  Create base animations
 - [X]  Add and style all links
@@ -51,7 +53,7 @@ This is my personal portfolio website, created to showcase my past projects and 
 - [ ] Finalize text sections  
 - [ ] Fix accessibility issues
 - [ ] Finilize metadata
-- [ ] Finilize mobile implementation
+- [ ] Finalize mobile implementation
 - [ ] Run tests 
 ## Extras
 - [ ] Add Portuguese translation
