@@ -8,12 +8,14 @@
       {
         "name": "github",
         "url": "https://github.com/arakruz",
-        "class": "fab fa-github"
+        "class": "fab fa-github",
+        "alt": "Github"
       },
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/pedro-de-sant-anna-novais-0923b1180/",
-        "class": "fab fa-linkedin"
+        "class": "fab fa-linkedin",
+        "alt": "Github"
       }
     ]
   },

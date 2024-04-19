@@ -44,6 +44,7 @@ class Nav extends Component {
                             height={40}
                             offHandleColor="#EEF0EB"
                             onHandleColor="#282424"
+                            aria-label="Theme Toggle"
                             uncheckedIcon={
                                 <span
                                     className="iconify"
@@ -74,8 +75,7 @@ class Nav extends Component {
                                     }}
                                 ></span>
                             }
-                            id="icon-switch"
-                        />
+                            id="icon-switch"/>
                     </div>
                     <div className="language-container">
                         <div
