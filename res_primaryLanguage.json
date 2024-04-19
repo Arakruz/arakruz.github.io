@@ -232,9 +232,9 @@
       "subTitle": "",
       "startDate": "2024",
       "description": "A prototype of a dashboard website created using React and Tailwind. Mainly created as a UX exercise to learn more of React and Tailwind, it includes a warning system and a mockup of realtime data fed graphs",
-      "image": "images/portfolio/InDevelopment.png",
+      "image": "images/portfolio/Dashboard.png",
       "imageAlt": [
-        "In development image"
+        "Screenshot showcasing website landing page"
       ],
       "url": "https://dashboard-2d7.pages.dev/",
       "technologies": [
