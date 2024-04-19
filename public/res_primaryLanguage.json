@@ -69,27 +69,35 @@
       ]
     },
     {
-      "title": "ML Agent Training",
-      "subTitle": "Cognitive Systems Design class project",
-      "startDate": "2023",
-      "description": "The final project for a Cognitive Systems Design and Analysis class where groups of three to four students were tasked to develop and train a machine learning agent using Unity and C# to compete in a given game. \nDue to my prior experience with Unity, I was the project's main developer, agent and reward designer, implementing all observation capabilities for the agent and setting the training specifications. We ranked third in the class competition involving all students from all sections.",
-      "image": "images/portfolio/MLAgentTraining.gif",
+      "title": "Dashboard Website Prototype",
+      "subTitle": "",
+      "startDate": "2024",
+      "description": "A prototype of a dashboard website created using React and Tailwind. Mainly created as a UX exercise to learn more of React and Tailwind, it includes a warning system and a mockup of realtime data fed graphs",
+      "image": "images/portfolio/Dashboard.png",
       "imageAlt": [
-        "A gif of the agent training"
+        "Screenshot showcasing website landing page"
       ],
-      "url": "https://github.com/Arakruz/Cogs_300_Project",
+      "url": "https://dashboard-2d7.pages.dev/",
       "technologies": [
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-javascript-plain",
+          "name": "Javascript"
         },
         {
-          "class": "devicon-unity-plain",
-          "name": "Unity"
+          "class": "devicon-html5-plain",
+          "name": "Html"
         },
         {
-          "class": "devicon-github-plain",
-          "name": "Github"
+          "class": "devicon-css3-plain",
+          "name": "css"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-tailwindcss-plain",
+          "name": "Tailwind"
         }
       ]
     },
@@ -133,6 +141,31 @@
         {
           "class": "devicon-git-plain",
           "name": "Perforce"
+        }
+      ]
+    },
+    {
+      "title": "ML Agent Training",
+      "subTitle": "Cognitive Systems Design class project",
+      "startDate": "2023",
+      "description": "The final project for a Cognitive Systems Design and Analysis class where groups of three to four students were tasked to develop and train a machine learning agent using Unity and C# to compete in a given game. \nDue to my prior experience with Unity, I was the project's main developer, agent and reward designer, implementing all observation capabilities for the agent and setting the training specifications. We ranked third in the class competition involving all students from all sections.",
+      "image": "images/portfolio/MLAgentTraining.gif",
+      "imageAlt": [
+        "A gif of the agent training"
+      ],
+      "url": "https://github.com/Arakruz/Cogs_300_Project",
+      "technologies": [
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        },
+        {
+          "class": "devicon-unity-plain",
+          "name": "Unity"
+        },
+        {
+          "class": "devicon-github-plain",
+          "name": "Github"
         }
       ]
     },
@@ -224,39 +257,6 @@
         {
           "class": "devicon-figma-plain",
           "name": "Figma"
-        }
-      ]
-    },
-    {
-      "title": "Dashboard Website Prototype",
-      "subTitle": "",
-      "startDate": "2024",
-      "description": "A prototype of a dashboard website created using React and Tailwind. Mainly created as a UX exercise to learn more of React and Tailwind, it includes a warning system and a mockup of realtime data fed graphs",
-      "image": "images/portfolio/Dashboard.png",
-      "imageAlt": [
-        "Screenshot showcasing website landing page"
-      ],
-      "url": "https://dashboard-2d7.pages.dev/",
-      "technologies": [
-        {
-          "class": "devicon-javascript-plain",
-          "name": "Javascript"
-        },
-        {
-          "class": "devicon-html5-plain",
-          "name": "Html"
-        },
-        {
-          "class": "devicon-css3-plain",
-          "name": "css"
-        },
-        {
-          "class": "devicon-react-plain",
-          "name": "React"
-        },
-        {
-          "class": "devicon-tailwindcss-plain",
-          "name": "Tailwind"
         }
       ]
     },

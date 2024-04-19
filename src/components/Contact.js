@@ -8,7 +8,7 @@ class Contact extends Component {
             var networks = this.props.sharedBasicInfo.social.map(function (network) {
                 return (
                     <span key={network.name} className="m-4">
-            <a href={network.url} target="_blank" rel="noopener noreferrer" alt={network.alt}>
+            <a href={network.url} target="_blank" rel="noopener noreferrer" aria-describedby={network.alt}>
               <i className={network.class + " hover-expand"}></i>
             </a>
           </span>
