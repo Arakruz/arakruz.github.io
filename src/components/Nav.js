@@ -26,7 +26,6 @@ class Nav extends Component {
     render() {
         let app = this.props.app;
         if (this.props.sharedData) {
-            let name = this.props.sharedData.name;
             this.titles = this.props.sharedData.titles.map(x => [x.toUpperCase(), 1500]).flat();
         }
 

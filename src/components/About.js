@@ -2,9 +2,11 @@ import React, {Component} from "react";
 
 class About extends Component {
     render() {
+        let sectionName;
+        let about;
         if (this.props.resumeBasicInfo) {
-            var sectionName = this.props.resumeBasicInfo.section_name.about;
-            var about = this.props.resumeBasicInfo.description;
+            sectionName = this.props.resumeBasicInfo.section_name.about;
+            about = this.props.resumeBasicInfo.description;
         }
 
         return (

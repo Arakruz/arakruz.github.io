@@ -3,14 +3,19 @@ import {FaArrowDown} from "react-icons/fa";
 
 class Hero extends Component {
     render() {
+        let name;
+        let profession_header;
+        let hobby_header;
+        let heroButton;
+        let welcome;
 
         if (this.props.sharedData && this.props.sharedBasicInfo) {
-            var name = this.props.sharedData.name;
-            var software = this.props.sharedBasicInfo.header_profession;
-            var videoGame = this.props.sharedBasicInfo.header_hobby;
-            var heroButton = this.props.sharedBasicInfo.header_button;
+            name = this.props.sharedData.name;
+            profession_header = this.props.sharedBasicInfo.header_profession;
+            hobby_header = this.props.sharedBasicInfo.header_hobby;
+            heroButton = this.props.sharedBasicInfo.header_button;
             this.titles = this.props.sharedData.titles.map(x => [x.toUpperCase(), 1500]).flat();
-            var hello = this.props.sharedBasicInfo.hello_message;
+            welcome = this.props.sharedBasicInfo.hello_message;
         }
 
 
@@ -18,9 +23,9 @@ class Hero extends Component {
             <section id="hero" className="hero">
                 <div className="hero-details">
                     <div className="hero-text">
-                        <p className="hero-one">{hello} <span className="name">{name}</span></p>
-                        <p className="hero-two">{software},</p>
-                        <p className="hero-three">{videoGame}.</p>
+                        <p className="hero-one">{welcome} <span className="name">{name}</span></p>
+                        <p className="hero-two">{profession_header},</p>
+                        <p className="hero-three">{hobby_header}.</p>
                     </div>
                     <button type="button" className="view-button">
                         <a href="#about">
