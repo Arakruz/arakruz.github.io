@@ -2,9 +2,9 @@
   "basic_info": {
     "hello_message": "Hi, I'm",
     "header_profession": "Software Developer",
-    "header_hobby": "video game enthusiast",
+    "header_hobby": "Video game enthusiast",
     "header_button": "Get to know me",
-    "description": "I'm currently an undergraduate student at UBC, exploring concepts in computer science, data science, and psychology. As a Cognitive Systems student, I was able to take classes in many different disciplines, learning different perspectives and how to reconcile them to form a bigger, more complete picture of a multitude of areas, from AI development and analysis to the interactions between humans and computers. Beyond university, I am a passionate and curious individual, always looking for new opportunities to learn more about the world around us, and a video game enthusiast who loves getting lost in digital worlds, constantly trying to understand better how they can be so great at what they do.",
+    "description": "I'm an undergraduate Cognitive Systems student at UBC, exploring computer science, data science, and psychology. This interdisciplinary approach has deepened my understanding of AI, human-computer interaction, and UX design. Beyond academics, I'm a curious and passionate individual who loves learning and a video game enthusiast fascinated by what makes digital worlds so engaging.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -18,7 +18,7 @@
       "title": "Spellrise",
       "subTitle": "UBC Game dev Club",
       "startDate": "2020",
-      "description": "A mobile adventure game focused on allowing the player to cast spells by drawing on the screen while they explore a fantasy world. I worked as a systems programmer to implement day-night cycles, in-editor dev tools to facilitate development, player-environment and player-enemy interactions, and a modular spell system for fast prototyping and increased gameplay variety.",
+      "description": "I contributed to a mobile adventure game with the UBC Game Dev Club, working alongside a team of around 15 people. In this project, players cast spells by drawing on the screen as they explore a fantasy world. As a systems programmer, I implemented day-night cycles, developed in-editor tools to streamline the development process, and designed player-environment and player-enemy interactions. Additionally, I created a modular spell system that enabled non-programmer developers to create new features without coding, allowing for rapid prototyping and enhanced gameplay variety.",
       "image": "images/portfolio/Spellrise.gif",
       "imageAlt": [
         "Gif showcasing the game, including a mobile screen spell drawing feature"
@@ -69,47 +69,13 @@
       ]
     },
     {
-      "title": "Dashboard Website Prototype",
-      "subTitle": "",
-      "startDate": "2024",
-      "description": "A prototype of a dashboard website created using React and Tailwind. Mainly created as a UX exercise to learn more of React and Tailwind, it includes a warning system and a mockup of realtime data fed graphs",
-      "image": "images/portfolio/Dashboard.png",
-      "imageAlt": [
-        "Screenshot showcasing website landing page"
-      ],
-      "url": "https://dashboard-2d7.pages.dev/",
-      "technologies": [
-        {
-          "class": "devicon-javascript-plain",
-          "name": "Javascript"
-        },
-        {
-          "class": "devicon-html5-plain",
-          "name": "Html"
-        },
-        {
-          "class": "devicon-css3-plain",
-          "name": "css"
-        },
-        {
-          "class": "devicon-react-plain",
-          "name": "React"
-        },
-        {
-          "class": "devicon-tailwindcss-plain",
-          "name": "Tailwind"
-        }
-      ]
-    },
-    {
       "title": "Environmental Psychology Research",
       "subTitle": "Environmental Psychology course",
       "startDate": "2024",
-      "description": "Research into the impacts of video game-themed messaging and posters on consumer behaviour. This research was conducted in partnership with the UBC SEEDS program with the goal of finding methods of reducing post-consumer food waste in the UBC dining halls. Our study was conducted over two weeks on UBC Open Kitchen, where over 2000 observations were collected in conjunction with quantitative data around food waste and foot traffic in the dining hall. Afterwards, data analysis was performed using R, where the data was cleaned, wrangled, and analyzed using Whitney-Mann U and Wilcoxon tests. Lastly, a report followed by a presentation was conducted for our client, providing recommendations for the future. I worked in study and graphic design, data collection and analysis, report and paper writing, and performed the presentation.",
-
+      "description": "I was part of a group of six researchers conducting a study on the impact of video game-themed messaging on consumer behavior. This research was conducted in partnership with the UBC SEEDS program with the goal of finding methods of reducing post-consumer food waste in the UBC dining halls. Our study was conducted over two weeks on UBC Open Kitchen, where over 2000 observations were collected in conjunction with quantitative data around food waste and foot traffic in the dining hall. Afterwards, data analysis was performed using R, where the data was cleaned, wrangled, and analyzed using Whitney-Mann U and Wilcoxon tests. Lastly, a report followed by a presentation was conducted for our client, providing recommendations for the future. I worked in study and graphic design, data collection and analysis, report and paper writing, and performed the project presentation for the clients.",
       "image": "images/portfolio/Poster1.jpg",
       "imageAlt": [
-        "One of the posters used for the project"
+        "One of the posters used for the project, depicting Pacman with food waste reduction related messaging"
       ],
       "url": "",
       "technologies": [
@@ -123,7 +89,7 @@
       "title": "Tower Defense Project",
       "subTitle": "UBC Game Dev Club",
       "startDate": "2023",
-      "description": "Plants vs zombies inspired Tower Defense game built with Unreal Engine, C++, Blueprints and Perforce. I worked as a programmer and team lead for a team of ten developers. The main features I have worked on were game logic, enemy wave creation, grid system, towers, UI, and in-editor tools to facilitate prototyping and testing. Besides programming tasks, I also worked on game design and team management.",
+      "description": "I led a team of ten developers to create a tower defense game using Unreal Engine, C++, Blueprints, and Perforce. As the programmer and team lead, I translated abstract design goals into clear, actionable tasks for a team of varying experience levels, fostering a smooth development process. I focused on developing key features such as game logic, enemy wave creation, grid system, towers, UI, and in-editor tools for prototyping and testing. In addition to my programming duties, I contributed to game design and team management, ensuring smooth development and cohesive gameplay.",
       "image": "images/portfolio/TD.png",
       "imageAlt": [
         "A screenshot of the game, showcasing different towers, enemies, and projectiles"
@@ -148,7 +114,7 @@
       "title": "ML Agent Training",
       "subTitle": "Cognitive Systems Design class project",
       "startDate": "2023",
-      "description": "The final project for a Cognitive Systems Design and Analysis class where groups of three to four students were tasked to develop and train a machine learning agent using Unity and C# to compete in a given game. \nDue to my prior experience with Unity, I was the project's main developer, agent and reward designer, implementing all observation capabilities for the agent and setting the training specifications. We ranked third in the class competition involving all students from all sections.",
+      "description": "For our final project in the Cognitive Systems Design and Analysis class, teams of three to four students were assigned to develop and train a machine learning agent using Unity and C#. Leveraging my prior experience with Unity, I took on the role of the project's lead developer, agent designer, and reward architect. I implemented all observation capabilities for the agent and established the training specifications. Our efforts resulted in a third-place ranking in the class competition, which encompassed students from all class sections with over 200 students.",
       "image": "images/portfolio/MLAgentTraining.gif",
       "imageAlt": [
         "A gif of the agent training"
@@ -173,10 +139,10 @@
       "title": "Pomodoro Timer",
       "subTitle": "Software Construction class project",
       "startDate": "2021",
-      "description": "This was my first complete software project and a final assignment for a Software Construction class. I learned and applied object-oriented programming skills and design patterns to create an app in Java to keep track of, record, and plan focus sessions used in the Pomodoro study technique, facilitating its use. I also employed test-driven development to guarantee code reliability and robustness using JUnit while following best practices and writing extensive documentation to simplify code inspection.",
+      "description": "For my first software project, I tackled the final assignment in a Software Construction class. Using Java, I applied object-oriented programming skills and design patterns to develop an app that enhances the Pomodoro study technique. The app allows users to track, record, and plan focus sessions efficiently. I adopted test-driven development with JUnit to ensure code reliability and robustness, achieving 100% code coverage on non UI methods. Additionally, I followed best practices and extensively documented the code to simplify inspection and maintenance.",
       "image": "images/portfolio/Pomodoro.png",
       "imageAlt": [
-        "A picture of the app main page"
+        "A picture of the app main page, including different study session options, the timer, etc."
       ],
       "url": "https://github.com/Arakruz/Pomodoro-Timer",
       "technologies": [
@@ -227,10 +193,10 @@
       "title": "Personal Portfolio",
       "subTitle": "You are on it!",
       "startDate": "2023",
-      "description": "Created to be a central place to display my past projects and hone my skills for future human-computer interaction classes and possible work opportunities. Built using Node, React and SCSS ",
+      "description": "Crafted as a centralized hub to showcase my previous projects and refine my abilities for future human-computer interaction classes and potential job prospects. Constructed with Node, React, and SCSS, this platform serves as a dynamic space for skill enhancement and professional growth.",
       "image": "images/portfolio/Portfolio.png",
       "imageAlt": [
-        "A screenshot of the landing page"
+        "A screenshot of the landing page of this website"
       ],
       "url": "https://github.com/Arakruz/arakruz.github.io",
       "technologies": [
@@ -264,7 +230,7 @@
       "title": "Housing Management System",
       "subTitle": "Databases class project",
       "startDate": "2023",
-      "description": "Project mimicking a simplified residence management system for a database class final assignment. We aimed to build software that can simulate a real-life use case by tracking tenants, mail, staff, rooms, buildings, equipment available to be rented, etc. I mainly worked on the Java GUI and database design, including ER diagram, normalization, and schema creation.",
+      "description": "For our final assignment in a database class, we developed a project mimicking a simplified residence management system. Our goal was to create software capable of simulating real-life scenarios by tracking tenants, mail, staff, rooms, buildings, and available rental equipment. My primary focus was on Java GUI development and database design, encompassing tasks such as creating an ER diagram, normalization, and schema creation.",
       "image": "",
       "imageAlt": [
         ""
