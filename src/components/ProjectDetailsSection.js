@@ -75,8 +75,8 @@ class ProjectDetailsSection extends Component {
 
 							<div className={odd_project + " project-information-container"}>
 									<div className={imageOnOff + " project-image-container"}>
-											<img src={project_img} alt="blur effect" className="blur"></img>
-											<img src={project_img} alt={project_img_alt} className="project-image"></img>
+											<img src={project_img} loading={"lazy"} alt="blur effect" className="blur"></img>
+											<img src={project_img} loading={"lazy"} alt={project_img_alt} className="project-image"></img>
 									</div>
 
 									<div className=" project-text-container">

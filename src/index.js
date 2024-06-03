@@ -1,8 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
-import ReactDOM from "react-dom";
 import App from "./App";
 import "./index.scss";
+import { createRoot } from "react-dom/client";
 
 /* GLOBAL VARIABLES */
 
@@ -11,4 +11,8 @@ window.$secondaryLanguage = "pt-br";
 window.$primaryLanguageIconId = "primary-lang-icon";
 window.$secondaryLanguageIconId = "secondary-lang-icon";
 
-ReactDOM.render(<App/>, document.getElementById("root"));
+
+const container = document.getElementById('app');
+const root = createRoot(container);
+root.render(<App tab="home" />);
+
