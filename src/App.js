@@ -8,6 +8,7 @@ import Skills from "./components/Skills";
 import Nav from "./components/Nav";
 import Contact from "./components/Contact";
 
+
 class App extends Component {
 		constructor () {
 				super();
