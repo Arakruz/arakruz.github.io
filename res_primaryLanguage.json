@@ -73,7 +73,7 @@
       "subTitle": "Environmental Psychology course",
       "startDate": "2024",
       "description": "I was part of a group of six researchers conducting a study on the impact of video game-themed messaging on consumer behavior. This research was conducted in partnership with the UBC SEEDS program with the goal of finding methods of reducing post-consumer food waste in the UBC dining halls. Our study was conducted over two weeks on UBC Open Kitchen, where over 2000 observations were collected in conjunction with quantitative data around food waste and foot traffic in the dining hall. Afterwards, data analysis was performed using R, where the data was cleaned, wrangled, and analyzed using Whitney-Mann U and Wilcoxon tests. Lastly, a report followed by a presentation was conducted for our client, providing recommendations for the future. I worked in study and graphic design, data collection and analysis, report and paper writing, and performed the project presentation for the clients.",
-      "image": "images/portfolio/Poster1.jpg",
+      "image": "images/portfolio/Poster1.png",
       "imageAlt": [
         "One of the posters used for the project, depicting Pacman with food waste reduction related messaging"
       ],
