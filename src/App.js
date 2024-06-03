@@ -9,7 +9,7 @@ import Nav from "./components/Nav";
 import Contact from "./components/Contact";
 
 class App extends Component {
-		constructor (props) {
+		constructor () {
 				super();
 				this.state = {
 						foo: "bar",
@@ -67,7 +67,6 @@ class App extends Component {
 						cache: false,
 						success: function (data) {
 								this.setState({ sharedData: data });
-								document.title = `${this.state.sharedData.basic_info.name}`;
 						}.bind(this),
 						error: function (xhr, status, err) {
 								alert(err);

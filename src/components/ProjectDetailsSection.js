@@ -83,9 +83,9 @@ class ProjectDetailsSection extends Component {
 											<div className={even_project + " details"}>
 													<h1 className="summary">Summary</h1>
 													<span className="description-text">{project_description}</span>
-													<div className="tech">
+													<ul className="tech">
 															{tech}
-													</div>
+													</ul>
 											</div>
 
 											<a href={project_url} className={urlOnOff + " project-link"} target="_blank"

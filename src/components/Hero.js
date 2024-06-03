@@ -6,14 +6,14 @@ class Hero extends Component {
 				let name;
 				let profession_header;
 				let hobby_header;
-				let heroButton;
+				let heroButtonText;
 				let welcome;
 
 				if (this.props.sharedData && this.props.sharedBasicInfo) {
 						name = this.props.sharedData.name;
 						profession_header = this.props.sharedBasicInfo.header_profession;
 						hobby_header = this.props.sharedBasicInfo.header_hobby;
-						heroButton = this.props.sharedBasicInfo.header_button;
+						heroButtonText = this.props.sharedBasicInfo.header_button;
 						this.titles = this.props.sharedData.titles.map(x => [x.toUpperCase(), 1500]).flat();
 						welcome = this.props.sharedBasicInfo.hello_message;
 				}
@@ -28,7 +28,7 @@ class Hero extends Component {
 									</div>
 									<button type="button" className="view-button">
 											<a href="#about">
-													<span>{heroButton}</span>
+													<span>{heroButtonText}</span>
 													<FaArrowDown className="arrow"/>
 											</a>
 									</button>

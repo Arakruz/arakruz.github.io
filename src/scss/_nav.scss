@@ -21,7 +21,7 @@
 
   @media only screen and (max-width: 1050px) {
     padding: 1rem 0.5rem;
-    font-size: 1.85rem;
+    font-size: 2rem;
     backdrop-filter: blur(100px);
   }
 }
@@ -52,6 +52,9 @@
 .theme-container {
   display: flex;
   align-items: center;
+  @media only screen and (max-width: 1050px) {
+    font-size: 3rem;
+  }
 }
 
 .language-container {
