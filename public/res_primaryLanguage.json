@@ -44,27 +44,19 @@
       ]
     },
     {
-      "title": "Crime Rate Analysis in Vancouver",
-      "subTitle": "Statistics class project",
-      "startDate": "2022",
-      "description": "Analysis of Vancouver crime data to see if there was any noticeable impact of the COVID-19 pandemic on the crime rate in each neighbourhood of the city. For this project, we used R and Jupyter Notebooks to optimize datasets, wrangle data, make data analysis workflows, conduct statistical analysis and create visualizations.",
-      "image": "images/portfolio/Stats.webp",
+      "title": "User Interface Study and Design",
+      "subTitle": "Human computer interaction course",
+      "startDate": "2024",
+      "description": "In this User Interface Study and Design project, a comprehensive UI analysis was conducted to identify key user personas, needs, and tasks. Low- and mid-fidelity prototypes were developed using Figma, with designs refined through iterative processes and user-centric principles. Extensive user research, including interviews and observations, was performed to evaluate prototype performance. Both qualitative and quantitative data were analyzed to inform design decisions, ultimately enhancing user satisfaction. This project demonstrates the ability to create effective, user-centered designs and apply rigorous research methodologies to improve user experiences.",
+      "image": "images/portfolio/DesignProject.webp",
       "imageAlt": [
-        "Screenshot of the project files, including graphs of the data"
+        "An image depicting the first page of the med-fi prototype of the redesign of facebook marketplace created for the class"
       ],
-      "url": "https://github.com/Arakruz/STAT201_Project_Group_30",
+      "url": "https://www.figma.com/design/eEqilkNVFXDEyKiMLQNMOQ/FB-Marketplace-344-Redesign?node-id=2-4132&t=l4atiH7PSJMKAkcM-0",
       "technologies": [
         {
-          "class": "devicon-r-plain",
-          "name": "R"
-        },
-        {
-          "class": "devicon-jupyter-plain",
-          "name": "Jupyter"
-        },
-        {
-          "class": "devicon-github-plain",
-          "name": "Github"
+          "class": "devicon-figma-plain",
+          "name": "Figma"
         }
       ]
     },
@@ -72,12 +64,12 @@
       "title": "Environmental Psychology Research",
       "subTitle": "Environmental Psychology course",
       "startDate": "2024",
-      "description": "I was part of a group of six researchers conducting a study on the impact of video game-themed messaging on consumer behavior. This research was conducted in partnership with the UBC SEEDS program with the goal of finding methods of reducing post-consumer food waste in the UBC dining halls. Our study was conducted over two weeks on UBC Open Kitchen, where over 2000 observations were collected in conjunction with quantitative data around food waste and foot traffic in the dining hall. Afterwards, data analysis was performed using R, where the data was cleaned, wrangled, and analyzed using Whitney-Mann U and Wilcoxon tests. Lastly, a report followed by a presentation was conducted for our client, providing recommendations for the future. I worked in study and graphic design, data collection and analysis, report and paper writing, and performed the project presentation for the clients.",
+      "description": "I was part of a team of six researchers studying the impact of eye-catching video game-themed messaging on reducing food waste in UBC dining halls, in partnership with the UBC SEEDS program. The goal was to leverage the contrast and appeal of video game themes in a dining environment to influence consumer behavior. Over two weeks, we collected over 2000 observations at UBC Open Kitchen, analyzing data on food waste and foot traffic using R. My role included designing the study materials, collecting and analyzing data, and writing the final report. I also presented our findings and recommendations to the client, who provided overwhelmingly positive feedback, appreciating our innovative approach and thorough analysis.",
       "image": "images/portfolio/Poster1.webp",
       "imageAlt": [
         "One of the posters used for the project, depicting Pacman with food waste reduction related messaging"
       ],
-      "url": "",
+      "url": "https://sustain.ubc.ca/sites/default/files/seedslibrary/PSYCH%20421%20Gaming%20Against%20Food%20Waste%20Final%20Report.pdf",
       "technologies": [
         {
           "class": "devicon-r-plain",
@@ -107,6 +99,31 @@
         {
           "class": "devicon-git-plain",
           "name": "Perforce"
+        }
+      ]
+    },
+    {
+      "title": "Crime Rate Analysis in Vancouver",
+      "subTitle": "Statistics class project",
+      "startDate": "2022",
+      "description": "Analysis of Vancouver crime data to see if there was any noticeable impact of the COVID-19 pandemic on the crime rate in each neighbourhood of the city. For this project, we used R and Jupyter Notebooks to optimize datasets, wrangle data, make data analysis workflows, conduct statistical analysis and create visualizations.",
+      "image": "images/portfolio/Stats.webp",
+      "imageAlt": [
+        "Screenshot of the project files, including graphs of the data"
+      ],
+      "url": "https://github.com/Arakruz/STAT201_Project_Group_30",
+      "technologies": [
+        {
+          "class": "devicon-r-plain",
+          "name": "R"
+        },
+        {
+          "class": "devicon-jupyter-plain",
+          "name": "Jupyter"
+        },
+        {
+          "class": "devicon-github-plain",
+          "name": "Github"
         }
       ]
     },

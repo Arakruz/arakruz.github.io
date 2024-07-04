@@ -11,7 +11,6 @@ window.$secondaryLanguage = "pt-br";
 window.$primaryLanguageIconId = "primary-lang-icon";
 window.$secondaryLanguageIconId = "secondary-lang-icon";
 
-
 const container = document.getElementById('app');
 const root = createRoot(container);
 root.render(<App tab="home" />);
