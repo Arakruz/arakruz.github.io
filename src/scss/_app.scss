@@ -40,7 +40,7 @@ html {
   width: 70%;
   align-self: center;
 
-  @media only screen and (max-width: 1050px) {
+  @media only screen and (max-width: 1280px) {
     width: 75%;
   }
 }
@@ -83,7 +83,7 @@ a {
     background-color: rgb(255, 255, 255, 0.64);
   }
 
-  @media only screen and (max-width: 1050px) {
+  @media only screen and (max-width: 1280px) {
     text-decoration: underline;
   }
 }
@@ -99,7 +99,7 @@ a {
   height: 1px;
   margin: 5vh 0;
 
-  @media only screen and (max-width: 1050px) {
+  @media only screen and (max-width: 1280px) {
     margin: 3vh 0;
   }
 }

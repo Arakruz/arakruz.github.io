@@ -5,7 +5,7 @@
   height: 100vh;
 }
 
-.hero-details {
+.hero-text-container {
   display: flex;
   width: 50vw;
   height: 20vh;
@@ -22,7 +22,7 @@
     position: relative;
   }
 
-  @media only screen and (max-width: 1050px) {
+  @media only screen and (max-width: 1280px) {
     width: 80vw;
     height: 30vh;
   }
@@ -31,9 +31,9 @@
 .hero-one {
   font-size: 4.5rem;
   animation: fadein 1s, fadedown 1s forwards;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
 
-  @media only screen and (max-width: 1050px) {
+  @media only screen and (max-width: 1280px) {
     font-size: 3rem;
   }
 }
@@ -44,7 +44,7 @@
   animation: fadein 1s forwards, fadedown 1s forwards;
   animation-delay: 1s;
 
-  @media only screen and (max-width: 1050px) {
+  @media only screen and (max-width: 1280px) {
     font-size: 2.5rem;
   }
 }
@@ -55,7 +55,7 @@
   animation: fadein 1s forwards, fadedown 1s forwards;
   animation-delay: 2s;
 
-  @media only screen and (max-width: 1050px) {
+  @media only screen and (max-width: 1280px) {
     font-size: 2rem;
   }
 }
@@ -71,6 +71,7 @@
   background: linear-gradient(to left, transparent 50%, red 50%) right;
   background-size: 200%;
   transition: background-position .2s ease-out;
+  margin-top: 2rem;
 
   a {
     text-decoration: none;
@@ -93,8 +94,7 @@
     }
   }
 
-  @media only screen and (max-width: 1050px) {
-    margin-top: 10rem;
+  @media only screen and (max-width: 1280px) {
     font-size: 24px;
   }
 }

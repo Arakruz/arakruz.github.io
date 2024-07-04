@@ -1,5 +1,5 @@
 #about {
-  @media only screen and (max-width: 1050px) {
+  @media only screen and (max-width: 1280px) {
     padding-top: 5vh;
   }
 }
@@ -7,7 +7,8 @@
 .about-description {
   font-size: 2rem;
 
-  @media only screen and (max-width: 1050px) {
-    font-size: 1.5rem;
+  @media only screen and (max-width: 1280px) {
+    font-size: 1.75rem;
+    text-align: center;
   }
 }

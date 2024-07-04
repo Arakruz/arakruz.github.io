@@ -2,7 +2,7 @@
   font-size: 5rem;
   padding-bottom: 3rem;
 
-  @media only screen and (max-width: 1050px) {
+  @media only screen and (max-width: 1280px) {
     font-size: 3rem;
   }
 }
@@ -10,7 +10,7 @@
 .email {
   font-size: 3rem;
   color: rgb(189, 189, 189);
-  @media only screen and (max-width: 1050px) {
+  @media only screen and (max-width: 1280px) {
     font-size: 2rem;
   }
 }
@@ -26,7 +26,7 @@
   padding-bottom: 15vh;
   animation: fadein 2s forwards;
   animation-delay: 0.5s;
-  @media only screen and (max-width: 1050px) {
+  @media only screen and (max-width: 1280px) {
     height: 80vh;
     padding-bottom: 0;
   }

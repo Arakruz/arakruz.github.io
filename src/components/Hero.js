@@ -20,7 +20,7 @@ class Hero extends Component {
 
 				return (
 					<section id="hero" className="hero">
-							<div className="hero-details">
+							<div className="hero-text-container">
 									<div className="hero-text">
 											<p className="hero-one">{welcome} <span className="name">{name}</span></p>
 											<p className="hero-two">{profession_header},</p>
