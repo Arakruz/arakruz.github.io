@@ -40,8 +40,8 @@ html {
   width: 70%;
   align-self: center;
 
-  @media only screen and (max-width: 1280px) {
-    width: 75%;
+  @media only screen and (max-width: 1280px), screen and  (min-width: 1440px) {
+    width: 80%;
   }
 }
 
