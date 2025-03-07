@@ -1,6 +1,7 @@
 # Personal Portfolio
 
 This was the first version of my portfolio website, created to showcase my past projects and train my front-end skills. You can see it at https://arakruz.github.io/
+
 My new portfolio site can be seen here: https://www.pedronovais.com/.
 
 # Project Todos
