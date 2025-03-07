@@ -1,6 +1,7 @@
 # Personal Portfolio
 
-This is my personal portfolio website, created to showcase my past projects and train my front-end skills.
+This was the first version of my portfolio website, created to showcase my past projects and train my front-end skills. You can see it at https://arakruz.github.io/
+My new portfolio site can be seen here: https://www.pedronovais.com/.
 
 # Project Todos
 
@@ -35,24 +36,3 @@ This is my personal portfolio website, created to showcase my past projects and 
 - [X]  Add and style all links
 - [X]  Light theme
 - [X]  Mobile responsive 
-## Polish
-- [ ] Code Cleanup
-  - [ ] Remove redundancies
-  - [ ] Refactor non-standard/outdated implementations
-  - [ ] Fix dependencies
-  - [X] Fix possible security issues
-- [ ] Documentation
-  - [ ] CSS
-  - [ ] HTML/JS
-- [ ] Finilize animations
-- [ ] Finalize CSS styling
-  - [ ] Update Font
-  - [ ] Update Colors
-- [ ] Finalize text sections  
-- [X] Fix accessibility issues
-- [ ] Finilize metadata
-- [X] Finalize mobile implementation
-- [ ] Run tests 
-## Extras
-- [ ] Add Portuguese translation
-- [ ] Reintroduce language buttons
